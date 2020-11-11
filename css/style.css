@@ -10,15 +10,21 @@ nav .logo {
   nav .logo {
     width: 25rem;
   }
+  header nav .main-links {
+    background-color: green!important;
+    width: 93%;
+    position: absolute;
+    bottom: -20px;
+  }
+  nav .nav-link {
+    padding: .5rem 0!important;
+    font-size: 1.1rem;
+  }
 }
 
 header nav .fa-chevron-right {
   font-size: .75rem;
 }
-
-/* header nav .subscribe {
-  font-size: 1rem; 
-} */
 
 header nav .login {
   font-size: 1rem;
@@ -27,4 +33,18 @@ header nav .login {
 header li a {
   color: black!important;
 }
+
+header nav .icon-input {
+  position: relative;
+  width: 5rem;
+  font-size: 1.2rem;
+}
+
+header .icon-input i {
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+}
+
+
 

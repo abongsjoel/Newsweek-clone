@@ -1,3 +1,17 @@
 header {
   background-color: #ff0500;
 }
+
+nav .logo {
+  width: 8rem;
+}
+
+header nav .fa-chevron-right {
+  font-size: .75rem;
+}
+
+/* header nav .subscribe {
+  /* font-size: 1rem; */
+} */
+
+

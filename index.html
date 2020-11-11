@@ -13,8 +13,8 @@
 
   <header class="container-xl">
     <h1 class="sr-only">This is the main header</h1>
-    <h2>This is the header</h2>
-    <div class="fixed-top container-xl p-0">
+    <section class="fixed-top container-xl p-0">
+      <h2 class="sr-only">This is the main navigation</h2>
       <nav class="navbar navbar-dark  p-lg-0 pb-lg-3">
         <div class="d-none d-lg-block pl-3">
           <div class="weather text-white">
@@ -42,8 +42,30 @@
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>
-  
-        <div class="main-links collapse navbar-collapse d-lg-flex m-0 p-0" id="navlinks">
+        
+        <!--Show main links on small screens-->
+        <div class="main-links-sm collapse navbar-collapse d-lg-flex m-0 p-0" id="navlinks">
+          <ul class="navbar-nav d-lg-none bg-white text-dark px-3 font-weight-bold ">
+            <li class="icon-input nav-item">
+              <input class="border-0 w-100 nav-link" type="text" placeholder="Search">
+              <i class="fas fa-search"></i>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">U.S.</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">World</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tech & Science</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Newsgeek</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">The Debate</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
+          </ul>
+        </div>
+
+        <!--Show main-links on large screens-->
+        <div class="main-links-lg d-none d-lg-flex m-0 p-0" id="navlinks">
           <ul class="nav bg-white text-dark px-3 font-weight-bold flex-grow-1 justify-content-between align-items-center flex-nowrap h-100">
             <li class="nav-item"><a class="nav-link" href="#">U.S.</a></li>
             <span class="separator border"></span>
@@ -71,10 +93,14 @@
               <i class="fas fa-search"></i>
             </li>
           </ul>
-          <div class="trapezoid "></div>
+          <div class="trapezoid d-none d-lg-block"></div>
         </div>
       </nav>
       <div class="white-space bg-white border border-b d-none d-lg-block"></div>
+    </section>
+
+    <div>
+
     </div>
   </header>
 

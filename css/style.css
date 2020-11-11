@@ -10,14 +10,32 @@ nav .logo {
   nav .logo {
     width: 25rem;
   }
-  header nav .main-links {
+}
+
+header nav .main-links-sm {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  header nav .main-links-lg {
     width: 93%;
     position: absolute;
     bottom: -25px;
   }
+}
+
+nav .nav-link {
+  font-size: 1.25rem;
+  padding-top: 0!important;
+}
+
+@media only screen and (min-width: 992px) {
   nav .nav-link {
     padding: .5rem 0!important;
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -35,8 +53,13 @@ header li a {
 
 header nav .icon-input {
   position: relative;
-  width: 5rem;
   font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 992px) {
+  header nav .icon-input {
+    width: 5rem;
+  }
 }
 
 header .icon-input i {

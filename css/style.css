@@ -11,10 +11,10 @@ nav .logo {
     width: 25rem;
   }
   header nav .main-links {
-    background-color: green!important;
     width: 93%;
     position: absolute;
-    bottom: -20px;
+    bottom: -25px;
+    border-bottom: 1px solid blue;
   }
   nav .nav-link {
     padding: .5rem 0!important;
@@ -45,6 +45,22 @@ header .icon-input i {
   right: 0;
   bottom: 25%;
 }
+
+header nav .separator {
+  height: 22px;
+  width: 1px;
+}
+
+header nav .trapezoid {
+	border-bottom: 43px solid white;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 25px;
+}
+
+/* header .main-links li {
+  border-left: 1px solid #;
+} */
 
 
 

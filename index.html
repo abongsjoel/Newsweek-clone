@@ -9,69 +9,73 @@
   <link rel="stylesheet" href="css/style.css">
   <title>Newsweek Clone</title>
 </head>
-<body class="bg-light">
+<body class="bg-primary">
 
-  <header class="container-xl px-0 border border-primary">
+  <header class="container-xl">
     <h1 class="sr-only">This is the main header</h1>
-    <nav class="navbar navbar-dark fixed-top p-lg-0 pb-lg-3">
-      <div class="d-none d-lg-block pl-3">
-        <div class="weather text-white">
-          <i class="fas fa-cloud-sun-rain"></i>
-          <span class="font-weight-bold pl-2">31&#176; Douala, CM</span>
-          <span class="fas fa-chevron-right"></span>
-          <p class="pt-1">Wed, Nov 11, 2020</p>
-        </div>
-      </div>
-      <a class="navbar-brand pl-3" href="#">
-        <img class="logo pb-1" src="assets/logo.png" alt="Newsweek">
-      </a>
-      <div>
-        <a class="navbar-brand" href="#">
-          <span class="fas fa-user text-white-50 d-md-none"></span>
-          <span class="login d-none d-md-inline font-weight-bold">LOGIN</span>
-        </a>
-        <a class="navbar-brand" href="#">
-          <span class="badge badge-pill badge-warning py-2 px-3 d-flex align-items-center">
-            <span class="subscribe pr-1">SUBSCRIBE</span>
+    <h2>This is the header</h2>
+    <div class="fixed-top">
+      <nav class="navbar navbar-dark p-lg-0 pb-lg-3">
+        <div class="d-none d-lg-block pl-3">
+          <div class="weather text-white">
+            <i class="fas fa-cloud-sun-rain"></i>
+            <span class="font-weight-bold pl-2">31&#176; Douala, CM</span>
             <span class="fas fa-chevron-right"></span>
-          </span>
+            <p class="pt-1">Wed, Nov 11, 2020</p>
+          </div>
+        </div>
+        <a class="navbar-brand pl-3" href="#">
+          <img class="logo pb-1" src="assets/logo.png" alt="Newsweek">
         </a>
-        <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navlinks">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      </div>
-
-      <div class="main-links collapse navbar-collapse d-lg-flex m-0 p-0 border-r" id="navlinks">
-        <ul class="nav bg-white text-dark px-3 font-weight-bold flex-grow-1 justify-content-between align-items-center flex-nowrap h-100">
-          <li class="nav-item"><a class="nav-link" href="#">U.S.</a></li>
-          <span class="separator border"></span>
-          <li class="nav-item"><a class="nav-link" href="#">World</a></li>
-          <span class="separator border"></span>
-          <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
-          <span class="separator border"></span>
-          <li class="nav-item"><a class="nav-link" href="#">Tech & Science</a></li>
-          <span class="separator border"></span>
-          <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
-          <span class="separator border"></span>
-          <li class="nav-item"><a class="nav-link" href="#">Newsgeek</a></li>
-          <span class="separator border"></span>
-          <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
-          <span class="separator border"></span>
-          <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
-          <span class="separator border"></span>
-          <li class="nav-item"><a class="nav-link" href="#">The Debate</a></li>
-          <span class="separator border"></span>
-          <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
-          <span class="separator border"></span>
-          <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
-          <li class="icon-input nav-item">
-            <input class="border-0 w-100 nav-link" type="text" placeholder="Search">
-            <i class="fas fa-search"></i>
-          </li>
-        </ul>
-        <div class="trapezoid "></div>
-      </div>
-    </nav>
+        <div>
+          <a class="navbar-brand" href="#">
+            <span class="fas fa-user text-white-50 d-md-none"></span>
+            <span class="login d-none d-md-inline font-weight-bold">LOGIN</span>
+          </a>
+          <a class="navbar-brand" href="#">
+            <span class="badge badge-pill badge-warning py-2 px-3 d-flex align-items-center">
+              <span class="subscribe pr-1">SUBSCRIBE</span>
+              <span class="fas fa-chevron-right"></span>
+            </span>
+          </a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navlinks">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+  
+        <div class="main-links collapse navbar-collapse d-lg-flex m-0 p-0" id="navlinks">
+          <ul class="nav bg-white text-dark px-3 font-weight-bold flex-grow-1 justify-content-between align-items-center flex-nowrap h-100">
+            <li class="nav-item"><a class="nav-link" href="#">U.S.</a></li>
+            <span class="separator border"></span>
+            <li class="nav-item"><a class="nav-link" href="#">World</a></li>
+            <span class="separator border"></span>
+            <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+            <span class="separator border"></span>
+            <li class="nav-item"><a class="nav-link" href="#">Tech & Science</a></li>
+            <span class="separator border"></span>
+            <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
+            <span class="separator border"></span>
+            <li class="nav-item"><a class="nav-link" href="#">Newsgeek</a></li>
+            <span class="separator border"></span>
+            <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+            <span class="separator border"></span>
+            <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+            <span class="separator border"></span>
+            <li class="nav-item"><a class="nav-link" href="#">The Debate</a></li>
+            <span class="separator border"></span>
+            <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
+            <span class="separator border"></span>
+            <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
+            <li class="icon-input nav-item">
+              <input class="border-0 w-100 nav-link" type="text" placeholder="Search">
+              <i class="fas fa-search"></i>
+            </li>
+          </ul>
+          <div class="trapezoid "></div>
+        </div>
+      </nav>
+      <div class="white-space bg-white border border-b"></div>
+    </div>
   </header>
 
   <main class="container-xl">

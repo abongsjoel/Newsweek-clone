@@ -14,7 +14,6 @@ nav .logo {
     width: 93%;
     position: absolute;
     bottom: -25px;
-    border-bottom: 1px solid blue;
   }
   nav .nav-link {
     padding: .5rem 0!important;
@@ -56,6 +55,11 @@ header nav .trapezoid {
 	border-right: 25px solid transparent;
 	height: 0;
 	width: 25px;
+}
+
+header .white-space {
+  width: 100%;
+  height: 25px;
 }
 
 /* header .main-links li {

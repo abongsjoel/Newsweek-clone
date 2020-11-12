@@ -157,3 +157,29 @@ main p {
   }
 }
 
+main .debate .wrapper {
+  border-top: 4px solid #ccc;
+  border-bottom: 4px solid #ccc;
+}
+
+main .debate .line {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  height: 3px;
+}
+
+main .debate .vs-wrapper {
+  position: relative;
+}
+
+main .debate .vs {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+

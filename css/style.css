@@ -202,3 +202,7 @@ main .opinion .wrapper:not(:last-child) {
   border-bottom: 1px solid #ccc;
 }
 
+main .more-stories .wrapper {
+  border-top: 1px solid #ccc;
+}
+

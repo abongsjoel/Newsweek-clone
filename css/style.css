@@ -27,16 +27,21 @@ header nav .main-links-sm {
   }
 }
 
-nav .nav-link {
+header .nav-link {
   font-size: 1.25rem;
   padding-top: 0!important;
 }
 
 @media only screen and (min-width: 992px) {
-  nav .nav-link {
+  header .nav-link {
     padding: .5rem 0!important;
     font-size: 1rem;
   }
+}
+
+header .secondary-links .nav-link {
+  font-size: .8rem;
+  padding-right: 1.5rem!important;
 }
 
 header nav .fa-chevron-right {

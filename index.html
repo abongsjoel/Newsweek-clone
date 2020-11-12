@@ -16,13 +16,11 @@
     <section class="fixed-top container-xl p-0">
       <h2 class="sr-only">This is the main navigation</h2>
       <nav class="navbar navbar-dark  p-lg-0 pb-lg-3">
-        <div class="d-none d-lg-block pl-3">
-          <div class="weather text-white">
-            <i class="fas fa-cloud-sun-rain"></i>
-            <span class="font-weight-bold pl-2">31&#176; Douala, CM</span>
-            <span class="fas fa-chevron-right"></span>
-            <p class="pt-1">Wed, Nov 11, 2020</p>
-          </div>
+        <div class="weather text-white d-none d-lg-block pl-3">
+          <i class="fas fa-cloud-sun-rain"></i>
+          <span class="font-weight-bold pl-2">31&#176; Douala, CM</span>
+          <span class="fas fa-chevron-right"></span>
+          <p class="pt-1">Wed, Nov 11, 2020</p>
         </div>
         <a class="navbar-brand pl-3" href="#">
           <img class="logo pb-1" src="assets/logo.png" alt="Newsweek">
@@ -65,8 +63,8 @@
         </div>
 
         <!--Show main-links on large screens-->
-        <div class="main-links-lg d-none d-lg-flex m-0 p-0" id="navlinks">
-          <ul class="nav bg-white text-dark px-3 font-weight-bold flex-grow-1 justify-content-between align-items-center flex-nowrap h-100">
+        <div class="main-links-lg d-none d-lg-flex" id="navlinks">
+          <ul class="nav bg-white px-3 font-weight-bold flex-grow-1 justify-content-between align-items-center flex-nowrap">
             <li class="nav-item"><a class="nav-link" href="#">U.S.</a></li>
             <span class="separator border"></span>
             <li class="nav-item"><a class="nav-link" href="#">World</a></li>
@@ -96,12 +94,22 @@
           <div class="trapezoid d-none d-lg-block"></div>
         </div>
       </nav>
+
       <div class="white-space bg-white border border-b d-none d-lg-block"></div>
+      <ul class="secondary-links nav bg-white font-weight-bolder d-none d-lg-flex px-3 align-items-center flex-nowrap">
+        <li class="nav-item"><a class="nav-link" href="#">TRENDING</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">DONALD TRUMP</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">JOE BIDEN</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">2020 ELECTIONS</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">STIMULUS PACKAGE</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">CORONAVIRUS</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">COUNTRIES THAT COUNT</a></li>
+      </ul>
     </section>
 
-    <div>
-
-    </div>
+    <section>
+      <h2 class="sr-only">This is the secondary navigation</h2>
+    </section>
   </header>
 
   <main class="container-xl">

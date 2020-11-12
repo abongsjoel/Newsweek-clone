@@ -19,6 +19,11 @@ h2 {
   color: #9a9a9a;
 }
 
+h4 {
+  font-size: .9rem!important;
+  font-weight: bold;
+}
+
 /*** Header ***/
 
 header nav {

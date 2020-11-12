@@ -149,6 +149,7 @@ main .boxed figcaption {
   bottom: 0;
   left: 0;
   color: #ff0500;
+  text-transform: uppercase;
 }
 
 /* main .article-cards figcaption {

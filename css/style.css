@@ -206,7 +206,14 @@ main .more-stories .wrapper {
   border-top: 1px solid #ccc;
 }
 
-/* .row {
-  grid-auto-flow: row dense!important;
+/* @media only screen and (min-width: 768px) {
+  .rows {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 2fr;
+    gap: 10px;
+    align-items: flex-start;
+    grid-auto-flow: dense;
+  }
 } */
 

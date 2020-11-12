@@ -1,3 +1,23 @@
+/*** General ***/
+body {
+  background-color: f4f5f6;
+}
+.pt-7 {
+  padding-top: 5rem;
+}
+
+h2,
+h3 {
+  font-size: 1.1rem!important;
+  font-weight: bold;
+}
+
+h2 {
+  color: #9a9a9a;
+}
+
+/*** Header ***/
+
 header nav {
   background-color: #ff0500;
 }
@@ -90,9 +110,20 @@ header .white-space {
   height: 25px;
 }
 
-/* header .main-links li {
-  border-left: 1px solid #;
-} */
+/*** Main ***/
+main article .boxed {
+  position: relative;
+}
 
+main .boxed figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #ff0500;
+}
 
+main p {
+  font-size: .8rem;
+  line-height: 1.1rem;
+}
 

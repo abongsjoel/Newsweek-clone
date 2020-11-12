@@ -193,3 +193,7 @@ main .debate .vs {
   bottom: 0;
 }
 
+main .opinion .wrapper:not(:last-child) {
+  border-bottom: 2px solid #ccc;
+}
+

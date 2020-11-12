@@ -1,15 +1,18 @@
 /*** General ***/
 body {
-  background-color: f4f5f6;
+  background-color: #f4f5f6;
+  /* background-color: f4f5f6; */
 }
+
 .pt-7 {
-  padding-top: 5rem;
+  padding-top: 4rem!important;
 }
 
 h2,
 h3 {
   font-size: 1.1rem!important;
   font-weight: bold;
+  padding-bottom: .5rem;
 }
 
 h2 {

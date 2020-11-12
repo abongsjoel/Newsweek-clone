@@ -9,6 +9,12 @@ body {
   padding-top: 4rem !important;
 }
 
+@media only screen and (min-width: 992px) {
+  .pt-7 {
+    padding-top: 10.5rem !important;
+  }
+}
+
 h2 {
   font-size: 1rem !important;
   font-weight: bold;
@@ -154,6 +160,10 @@ main p {
   main p {
     font-size: 1rem;
     line-height: 1.3rem;
+  }
+  main .debate p {
+    font-size: .8rem;
+    line-height: 1.1rem;
   }
 }
 

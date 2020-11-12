@@ -1,18 +1,19 @@
 /*** General ***/
 body {
   background-color: #f4f5f6;
+
   /* background-color: f4f5f6; */
 }
 
 .pt-7 {
-  padding-top: 4rem!important;
+  padding-top: 4rem !important;
 }
 
 h2,
 h3 {
-  font-size: 1.1rem!important;
+  font-size: 1.1rem !important;
   font-weight: bold;
-  padding-bottom: .5rem;
+  padding-bottom: 0.5rem;
 }
 
 h2 {
@@ -20,7 +21,7 @@ h2 {
 }
 
 h4 {
-  font-size: .9rem!important;
+  font-size: 0.9rem !important;
   font-weight: bold;
 }
 
@@ -57,23 +58,23 @@ header nav .main-links-sm {
 
 header .nav-link {
   font-size: 1.25rem;
-  padding-top: 0!important;
+  padding-top: 0 !important;
 }
 
 @media only screen and (min-width: 992px) {
   header .nav-link {
-    padding: .5rem 0!important;
+    padding: 0.5rem 0 !important;
     font-size: 1rem;
   }
 }
 
 header .secondary-links .nav-link {
-  font-size: .8rem;
-  padding-right: 1.5rem!important;
+  font-size: 0.8rem;
+  padding-right: 1.5rem !important;
 }
 
 header nav .fa-chevron-right {
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 header nav .login {
@@ -81,7 +82,7 @@ header nav .login {
 }
 
 header li a {
-  color: black!important;
+  color: black !important;
 }
 
 header nav .icon-input {
@@ -107,10 +108,10 @@ header nav .separator {
 }
 
 header nav .trapezoid {
-	border-bottom: 43px solid white;
-	border-right: 25px solid transparent;
-	height: 0;
-	width: 25px;
+  border-bottom: 43px solid white;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 25px;
 }
 
 header .white-space {
@@ -131,7 +132,6 @@ main .boxed figcaption {
 }
 
 main p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.1rem;
 }
-

@@ -151,6 +151,10 @@ main .boxed figcaption {
   color: #ff0500;
 }
 
+/* main .article-cards figcaption {
+  color: blue;
+} */
+
 main p {
   font-size: .8rem;
   line-height: 1.1rem;
@@ -194,6 +198,6 @@ main .debate .vs {
 }
 
 main .opinion .wrapper:not(:last-child) {
-  border-bottom: 2px solid #ccc;
+  border-bottom: 1px solid #ccc;
 }
 

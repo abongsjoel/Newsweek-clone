@@ -9,20 +9,34 @@ body {
   padding-top: 4rem !important;
 }
 
-h2,
+h2 {
+  font-size: 1rem !important;
+  font-weight: bold;
+  color: #9a9a9a;
+}
+
 h3 {
   font-size: 1.1rem !important;
   font-weight: bold;
-  padding-bottom: 0.5rem;
-}
-
-h2 {
-  color: #9a9a9a;
 }
 
 h4 {
   font-size: 0.9rem !important;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  /* h2 {
+    font-size: 1rem !important;
+  } */
+  
+  h3 {
+    font-size: 1.3rem !important;
+  }
+  
+  /* h4 {
+    font-size: 0.9rem !important;
+  } */
 }
 
 /*** Header ***/
@@ -132,6 +146,14 @@ main .boxed figcaption {
 }
 
 main p {
-  font-size: 0.8rem;
+  font-size: .8rem;
   line-height: 1.1rem;
 }
+
+@media only screen and (min-width: 768px) {
+  main p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+}
+

@@ -308,6 +308,29 @@ main .editors-content h1 {
   }
 }
 
+/*** Footer ***/
+
+footer .logo-red {
+  width: 15rem;
+}
+
+footer .social {
+  width: 11rem;
+}
+
+footer .copy {
+  font-size: .8rem;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+footer ul a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
 
 
 

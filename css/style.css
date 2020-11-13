@@ -52,16 +52,16 @@ h4 {
 }
 
 @media only screen and (min-width: 768px) {
-  /* h2 {
-    font-size: 1rem !important;
-  } */
+  h1 {
+    font-size: 1.5rem !important;
+  }
   
   h3 {
     font-size: 1.3rem !important;
   }
   
   h4 {
-    font-size: 1.3rem !important;
+    font-size: 1.2rem !important;
   }
 }
 

@@ -160,6 +160,13 @@ header .white-space {
 }
 
 /*** Main ***/
+
+main .sticky {
+  position: sticky;
+  bottom: 0;
+  align-self: flex-end;
+}
+
 main article .boxed {
   position: relative;
 }

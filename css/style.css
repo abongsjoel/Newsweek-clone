@@ -211,8 +211,7 @@ main .more-stories .wrapper {
   border-top: 1px solid #ccc;
 }
 
-main .magazine .logo,
-main .magazine .btn-danger {
+main .logo {
   background-color: #ff0500;
 }
 

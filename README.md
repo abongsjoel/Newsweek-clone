@@ -13,8 +13,9 @@ In this project, I clone the Newsweek homepage using semantic HTML5 elements, Bo
 ## Built With
 
 - HTML5
-- CSS3
 - Bootstrap4
+- CSS3
+
 
 ## Author
 

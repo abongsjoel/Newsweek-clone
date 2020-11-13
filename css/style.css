@@ -15,7 +15,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 768px) {
   .w-md-50 {
     width: 50%;
     margin: 0 auto;
@@ -52,9 +52,9 @@ h4 {
 }
 
 @media only screen and (min-width: 768px) {
-  h1 {
+  /* h1 {
     font-size: 1.5rem !important;
-  }
+  } */
   
   h3 {
     font-size: 1.3rem !important;

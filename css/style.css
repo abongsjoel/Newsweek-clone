@@ -299,6 +299,15 @@ main .editors-content h1 {
   color: #ff0500;
 }
 
+@media only screen and (min-width: 992px) {
+  main .newsletter form {
+    font-size: .8rem!important;
+  }
+  main .newsletter button {
+    font-size: .7rem!important;
+  }
+}
+
 
 
 

@@ -30,7 +30,7 @@ In this project, I clone the Newsweek homepage using semantic HTML5 elements, Bo
 - [Microverse](https://www.microverse.org/)
 - [The Odin Project](https://www.theodinproject.com)
 - [w3schools](https://www.w3schools.com)
-- [The Newsweek](https://www.newsweek.com/)
+- [Newsweek](https://www.newsweek.com/)
 
 ## Show your support
 <p> Give a 

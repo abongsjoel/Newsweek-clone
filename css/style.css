@@ -1,8 +1,6 @@
 /*** General ***/
 body {
   background-color: #f4f5f6;
-
-  /* background-color: f4f5f6; */
 }
 
 .pt-7 {
@@ -52,10 +50,6 @@ h4 {
 }
 
 @media only screen and (min-width: 768px) {
-  /* h1 {
-    font-size: 1.5rem !important;
-  } */
-  
   h3 {
     font-size: 1.3rem !important;
   }
@@ -335,7 +329,6 @@ footer ul a {
 @media only screen and (min-width: 768px) {
   footer ul li:not(:last-child) {
     border-right: 1px solid #ebebeb;
-    /* padding: 0 25px!important; */
   }
 }
 

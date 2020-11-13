@@ -21,6 +21,10 @@ body {
     margin: 0 auto;
   }
 
+  .w-md-60 {
+    width: 60%;
+  }
+
   .border-md-bottom {
     border-bottom: 2px solid #eee;
     padding-bottom: .5rem;
@@ -56,9 +60,9 @@ h4 {
     font-size: 1.3rem !important;
   }
   
-  /* h4 {
-    font-size: 0.9rem !important;
-  } */
+  h4 {
+    font-size: 1.3rem !important;
+  }
 }
 
 /*** Header ***/

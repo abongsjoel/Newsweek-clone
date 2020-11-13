@@ -215,13 +215,26 @@ main .logo {
   background-color: #ff0500;
 }
 
-main .magazine .btn-danger {
+main .btn-danger {
   background-color: #ff0500;
+}
+
+main .magazine .btn-danger {
   padding: 1px 5px!important;
 }
 
-main .magazine .text-danger {
+main .magazine .text-danger,
+main .subscribe h2 {
   color: #ff0500;
+}
+
+main .subscribe .top-image {
+  top: 10%;
+  left: 50%;
+}
+
+main .subscribe i {
+  font-size: .5rem;
 }
 
 /* @media only screen and (min-width: 768px) {

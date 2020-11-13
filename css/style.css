@@ -152,9 +152,9 @@ main .boxed figcaption {
   text-transform: uppercase;
 }
 
-/* main .article-cards figcaption {
-  color: blue;
-} */
+main .culture figcaption {
+  background-color: #c2d4d7;
+}
 
 main p {
   font-size: .8rem;

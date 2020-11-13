@@ -20,6 +20,11 @@ body {
     width: 50%;
     margin: 0 auto;
   }
+
+  .border-md-bottom {
+    border-bottom: 2px solid #eee;
+    padding-bottom: .5rem;
+  }
 }
 
 h1 {
@@ -252,6 +257,12 @@ main .newsletter .card-img-top {
 
 main .newsletter h1 {
   color: black;
+}
+
+@media only screen and (min-width: 768px) {
+  main .magazine h1 {
+    font-size: 1rem;
+  }
 }
 
 /* @media only screen and (min-width: 768px) {

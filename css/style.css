@@ -15,6 +15,10 @@ body {
   }
 }
 
+h1 {
+  font-size: 1.2rem;
+}
+
 h2 {
   font-size: 1rem !important;
   font-weight: bold;
@@ -205,6 +209,10 @@ main .opinion .wrapper:not(:last-child) {
 
 main .more-stories .wrapper {
   border-top: 1px solid #ccc;
+}
+
+main .magazine .logo {
+  background-color: #ff0500;
 }
 
 /* @media only screen and (min-width: 768px) {

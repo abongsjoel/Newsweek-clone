@@ -211,8 +211,18 @@ main .more-stories .wrapper {
   border-top: 1px solid #ccc;
 }
 
-main .magazine .logo {
+main .magazine .logo,
+main .magazine .btn-danger {
   background-color: #ff0500;
+}
+
+main .magazine .btn-danger {
+  background-color: #ff0500;
+  padding: 1px 5px!important;
+}
+
+main .magazine .text-danger {
+  color: #ff0500;
 }
 
 /* @media only screen and (min-width: 768px) {

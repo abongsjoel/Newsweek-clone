@@ -287,12 +287,18 @@ main .newsletter h1 {
 
 @media only screen and (min-width: 768px) {
   main .magazine h1 {
-    font-size: 1rem;
+    font-size: 1rem!important;
+  }
+
+  main .side-content h3 {
+    font-size: 1rem!important;
   }
 }
 
 main .editors-content h1 {
   color: #ff0500;
 }
+
+
 
 

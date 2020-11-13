@@ -224,7 +224,8 @@ main .magazine .btn-danger {
 }
 
 main .magazine .text-danger,
-main .subscribe h2 {
+main .subscribe h2,
+main .newsletter h2 {
   color: #ff0500;
 }
 
@@ -235,6 +236,15 @@ main .subscribe .top-image {
 
 main .subscribe i {
   font-size: .5rem;
+}
+
+main .newsletter .card-img-top {
+  height: 150px;
+  object-fit: cover;
+}
+
+main .newsletter h1 {
+  color: black;
 }
 
 /* @media only screen and (min-width: 768px) {

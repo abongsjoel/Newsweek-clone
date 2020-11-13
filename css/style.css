@@ -25,7 +25,7 @@ body {
 
   .border-md-bottom {
     border-bottom: 2px solid #eee;
-    padding-bottom: .5rem;
+    padding-bottom: 0.5rem;
   }
 }
 
@@ -53,7 +53,7 @@ h4 {
   h3 {
     font-size: 1.3rem !important;
   }
-  
+
   h4 {
     font-size: 1.2rem !important;
   }
@@ -184,11 +184,11 @@ main .boxed figcaption {
 
 main .culture figcaption {
   background-color: #c2d4d7;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
 
 main p {
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.1rem;
 }
 
@@ -197,8 +197,9 @@ main p {
     font-size: 1rem;
     line-height: 1.3rem;
   }
+
   main .debate p {
-    font-size: .8rem;
+    font-size: 0.8rem;
     line-height: 1.1rem;
   }
 }
@@ -229,12 +230,12 @@ main .debate .vs {
   bottom: 0;
 }
 
-main .opinion .wrapper:not(:last-child) {
-  border-bottom: 1px solid #ccc;
-}
-
 main .more-stories .wrapper {
   border-top: 1px solid #ccc;
+}
+
+main .opinion .wrapper:not(:last-child) {
+  border-bottom: 1px solid #ccc;
 }
 
 main .logo {
@@ -246,7 +247,7 @@ main .btn-danger {
 }
 
 main .magazine .btn-danger {
-  padding: 1px 5px!important;
+  padding: 1px 5px !important;
 }
 
 main .magazine .text-danger,
@@ -261,7 +262,7 @@ main .subscribe .top-image {
 }
 
 main .subscribe i {
-  font-size: .5rem;
+  font-size: 0.5rem;
 }
 
 main .newsletter .news-image {
@@ -281,11 +282,11 @@ main .newsletter h1 {
 
 @media only screen and (min-width: 768px) {
   main .magazine h1 {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
   }
 
   main .side-content h3 {
-    font-size: 1rem!important;
+    font-size: 1rem !important;
   }
 }
 
@@ -295,10 +296,11 @@ main .editors-content h1 {
 
 @media only screen and (min-width: 992px) {
   main .newsletter form {
-    font-size: .8rem!important;
+    font-size: 0.8rem !important;
   }
+
   main .newsletter button {
-    font-size: .7rem!important;
+    font-size: 0.7rem !important;
   }
 }
 
@@ -313,7 +315,7 @@ footer .social {
 }
 
 footer .copy {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
 footer ul li {
@@ -331,6 +333,3 @@ footer ul a {
     border-right: 1px solid #ebebeb;
   }
 }
-
-
-

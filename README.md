@@ -8,7 +8,7 @@ In this project, I clone the Newsweek homepage using semantic HTML5 elements, Bo
 
 ## Live Demo 
 
-- [Visit Page](https://gasb150.github.io/The-next-web-responsive/.)
+- [Visit Page](https://abongsjoel.github.io/Newsweek-clone/.)
 
 ## Built With
 

@@ -154,6 +154,7 @@ main .boxed figcaption {
 
 main .culture figcaption {
   background-color: #c2d4d7;
+  font-size: .75rem;
 }
 
 main p {

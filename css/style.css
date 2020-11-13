@@ -15,6 +15,13 @@ body {
   }
 }
 
+@media only screen and (min-width: 720px) {
+  .w-md-50 {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+
 h1 {
   font-size: 1.2rem;
 }

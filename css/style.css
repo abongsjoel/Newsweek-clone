@@ -254,9 +254,15 @@ main .subscribe i {
   font-size: .5rem;
 }
 
-main .newsletter .card-img-top {
+main .newsletter .news-image {
   height: 150px;
   object-fit: cover;
+}
+
+@media only screen and (min-width: 768px) {
+  main .newsletter .news-image {
+    height: 100%;
+  }
 }
 
 main .newsletter h1 {

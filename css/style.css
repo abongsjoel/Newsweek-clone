@@ -3,13 +3,13 @@ body {
   background-color: #f4f5f6;
 }
 
-.pt-7 {
-  padding-top: 4rem !important;
+.container-xl {
+  padding-top: 2rem;
 }
 
 @media only screen and (min-width: 992px) {
-  .pt-7 {
-    padding-top: 10.5rem !important;
+  .container-xl {
+    padding-top: 5rem;
   }
 }
 
@@ -34,28 +34,28 @@ h1 {
 }
 
 h2 {
-  font-size: 1rem !important;
+  font-size: 1rem;
   font-weight: bold;
   color: #9a9a9a;
 }
 
 h3 {
-  font-size: 1.1rem !important;
+  font-size: 1.1rem;
   font-weight: bold;
 }
 
 h4 {
-  font-size: 0.9rem !important;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {
   h3 {
-    font-size: 1.3rem !important;
+    font-size: 1.3rem;
   }
 
   h4 {
-    font-size: 1.2rem !important;
+    font-size: 1.1rem;
   }
 }
 
@@ -92,19 +92,20 @@ header nav .main-links-sm {
 
 header .nav-link {
   font-size: 1.25rem;
-  padding-top: 0 !important;
+  padding-top: 0;
+  color: black;
 }
 
 @media only screen and (min-width: 992px) {
   header .nav-link {
-    padding: 0.5rem 0 !important;
+    padding: 0.5rem 0;
     font-size: 1rem;
   }
 }
 
 header .secondary-links .nav-link {
   font-size: 0.8rem;
-  padding-right: 1.5rem !important;
+  padding-right: 1.5rem;
 }
 
 header nav .fa-chevron-right {
@@ -115,8 +116,8 @@ header nav .login {
   font-size: 1rem;
 }
 
-header li a {
-  color: black !important;
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
 }
 
 header nav .icon-input {
@@ -247,7 +248,7 @@ main .btn-danger {
 }
 
 main .magazine .btn-danger {
-  padding: 1px 5px !important;
+  padding: 1px 5px;
 }
 
 main .magazine .text-danger,
@@ -282,11 +283,11 @@ main .newsletter h1 {
 
 @media only screen and (min-width: 768px) {
   main .magazine h1 {
-    font-size: 1rem !important;
+    font-size: 1rem;
   }
 
   main .side-content h3 {
-    font-size: 1rem !important;
+    font-size: 1rem;
   }
 }
 
@@ -296,11 +297,11 @@ main .editors-content h1 {
 
 @media only screen and (min-width: 992px) {
   main .newsletter form {
-    font-size: 0.8rem !important;
+    font-size: 0.8rem;
   }
 
   main .newsletter button {
-    font-size: 0.7rem !important;
+    font-size: 0.7rem;
   }
 }
 

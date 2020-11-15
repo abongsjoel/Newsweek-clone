@@ -39,5 +39,5 @@ In this project, I clone the Newsweek homepage using semantic HTML5 elements, Bo
   if you like this project!</p>
 
 ## License
-  <p>This project is <a href="../Features/LICENSE">MIT</a> licensed.</p>
+  <p>This project is <a href="../features/LICENSE">MIT</a> licensed.</p>
 

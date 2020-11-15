@@ -277,12 +277,15 @@ main .newsletter .news-image {
   }
 }
 
-main .newsletter h1 {
-  color: black;
+main .editors-pick h2,
+main .magazine h2 {
+  color: #000;
+  font-size: 1.2rem;
 }
 
 @media only screen and (min-width: 768px) {
-  main .magazine h1 {
+  main .magazine h1,
+  main .magazine h2 {
     font-size: 1rem;
   }
 
@@ -291,8 +294,9 @@ main .newsletter h1 {
   }
 }
 
-main .editors-content h1 {
+main .editors-content h2 {
   color: #ff0500;
+  font-size: 1.2rem;
 }
 
 @media only screen and (min-width: 992px) {

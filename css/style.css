@@ -275,6 +275,18 @@ main .newsletter .news-image {
   main .newsletter .news-image {
     height: 100%;
   }
+
+  main .magazine .see-all {
+    font-size: .9rem;
+  }
+
+  main .magazine .issue {
+    font-size: .7rem;
+  }
+
+  main .magazine h4 {
+    font-size: 1rem;
+  }
 }
 
 main .editors-pick h2,

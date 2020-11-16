@@ -281,6 +281,11 @@ main .newsletter .news-image {
   main .newsletter .image-holder{
     height: 100%;
   }
+
+  main .magazine .image {
+    height: 225px;
+    object-fit: cover;
+  }
 }
 
 @media only screen and (min-width: 768px) {

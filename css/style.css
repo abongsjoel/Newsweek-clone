@@ -278,7 +278,7 @@ main .newsletter .news-image {
 }
 
 @media only screen and (min-width: 992px) {
-  main .newsletter .image-holder{
+  main .newsletter .image-holder {
     height: 100%;
   }
 

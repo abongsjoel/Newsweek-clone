@@ -1,0 +1,370 @@
+/*** General ***/
+body {
+  background-color: #f4f5f6;
+}
+
+.container-xl {
+  padding: 1rem 0;
+}
+
+/* @media only screen and (min-width: 768px) {
+  .container-xl {
+    padding-top: 1rem;
+  }
+} */
+
+@media only screen and (min-width: 992px) {
+  .container-xl {
+    padding-top: 5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .w-md-50 {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .w-md-60 {
+    width: 60%;
+  }
+
+  .border-md-bottom {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 0.5rem;
+  }
+}
+
+h1 {
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #9a9a9a;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  h4 {
+    font-size: 1.1rem;
+  }
+}
+
+/*** Header ***/
+
+header nav {
+  background-color: #ff0500;
+}
+
+nav .logo {
+  width: 8rem;
+}
+
+@media only screen and (min-width: 992px) {
+  nav .logo {
+    width: 25rem;
+  }
+}
+
+header nav .main-links-sm {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media only screen and (min-width: 992px) {
+  header nav .main-links-lg {
+    width: 93%;
+    position: absolute;
+    bottom: -25px;
+  }
+}
+
+header .nav-link {
+  font-size: 1.25rem;
+  padding-top: 0;
+  color: black;
+}
+
+@media only screen and (min-width: 992px) {
+  header .nav-link {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+}
+
+header .secondary-links .nav-link {
+  font-size: 0.8rem;
+  padding-right: 1.5rem;
+}
+
+header nav .fa-chevron-right {
+  font-size: 0.75rem;
+}
+
+header nav .login {
+  font-size: 1rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black;
+}
+
+header nav .icon-input {
+  position: relative;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 992px) {
+  header nav .icon-input {
+    width: 5rem;
+  }
+}
+
+header .icon-input i {
+  position: absolute;
+  right: 0;
+  bottom: 25%;
+}
+
+header nav .separator {
+  height: 22px;
+  width: 1px;
+}
+
+header nav .trapezoid {
+  border-bottom: 43px solid white;
+  border-right: 25px solid transparent;
+  height: 0;
+  width: 25px;
+}
+
+header .white-space {
+  width: 100%;
+  height: 25px;
+}
+
+/*** Main ***/
+@media only screen and (min-width: 768px) {
+  main .sticky-md {
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  main .sticky-lg {
+    position: sticky;
+    bottom: 0;
+    align-self: flex-end;
+  }
+}
+
+main article .boxed {
+  position: relative;
+}
+
+main .boxed figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #ff0500;
+  text-transform: uppercase;
+}
+
+main .culture figcaption {
+  background-color: #c2d4d7;
+  font-size: 0.75rem;
+}
+
+main p {
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  main p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  main .debate p {
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+  }
+}
+
+main .debate .wrapper {
+  border-top: 4px solid #ccc;
+  border-bottom: 4px solid #ccc;
+}
+
+main .debate .line {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  height: 3px;
+}
+
+main .debate .vs-wrapper {
+  position: relative;
+}
+
+main .debate .vs {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+main .more-stories .wrapper {
+  border-top: 1px solid #ccc;
+}
+
+main .opinion .wrapper:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+}
+
+main .logo {
+  background-color: #ff0500;
+}
+
+main .btn-danger {
+  background-color: #ff0500;
+}
+
+main .magazine .btn-danger {
+  padding: 1px 5px;
+}
+
+main .magazine .text-danger,
+main .subscribe h2,
+main .newsletter h2 {
+  color: #ff0500;
+}
+
+main .subscribe .top-image {
+  top: 10%;
+  left: 50%;
+}
+
+main .subscribe i {
+  font-size: 0.5rem;
+}
+
+main .newsletter .news-image {
+  height: 150px;
+  object-fit: cover;
+}
+
+@media only screen and (min-width: 992px) {
+  main .newsletter .image-holder {
+    height: 100%;
+  }
+
+  main .magazine .image {
+    height: 225px;
+    object-fit: cover;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* main .newsletter .image-holder, */
+  main .newsletter .news-image {
+    height: 100%;
+  }
+
+  main .magazine .see-all {
+    font-size: 0.9rem;
+  }
+
+  main .magazine .issue {
+    font-size: 0.7rem;
+  }
+
+  main .magazine h4 {
+    font-size: 1rem;
+  }
+}
+
+main .editors-pick h2,
+main .magazine h2 {
+  color: #000;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 768px) {
+  main .magazine h1,
+  main .magazine h2 {
+    font-size: 1rem;
+  }
+
+  main .side-content h3 {
+    font-size: 1rem;
+  }
+}
+
+main .editors-content h2 {
+  color: #ff0500;
+  font-size: 1.2rem;
+}
+
+@media only screen and (min-width: 992px) {
+  main .newsletter form {
+    font-size: 0.8rem;
+  }
+
+  main .newsletter button {
+    font-size: 0.7rem;
+  }
+}
+
+/*** Footer ***/
+
+footer .logo-red {
+  width: 15rem;
+}
+
+footer .social {
+  width: 11rem;
+}
+
+footer .copy {
+  font-size: 0.8rem;
+}
+
+footer ul li {
+  list-style-type: none;
+}
+
+footer ul a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+@media only screen and (min-width: 768px) {
+  footer ul li:not(:last-child) {
+    border-right: 1px solid #ebebeb;
+  }
+}

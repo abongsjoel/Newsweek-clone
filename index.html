@@ -1,0 +1,1281 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>TJ Newsweek Clone</title>
+</head>
+<body>
+
+  <header class="container-xl">
+    <h1 class="sr-only">This is the main header</h1>
+    <section class="fixed-top container-xl p-0">
+      <h2 class="sr-only">This is the main navigation</h2>
+      <nav class="navbar navbar-dark  p-lg-0 pb-lg-3">
+        <div class="weather text-white d-none d-lg-block pl-3">
+          <i class="fas fa-cloud-sun-rain"></i>
+          <span class="font-weight-bold pl-2">31&#176; Douala, CM</span>
+          <span class="fas fa-chevron-right"></span>
+          <p class="pt-1">Wed, Nov 11, 2020</p>
+        </div>
+        <a class="navbar-brand pl-3" href="#">
+          <img class="logo pb-1" src="assets/logo-white.png" alt="Newsweek">
+        </a>
+        <div>
+          <a class="navbar-brand" href="#">
+            <span class="fas fa-user text-white-50 d-md-none"></span>
+            <span class="login d-none d-md-inline font-weight-bold">LOGIN</span>
+          </a>
+          <a class="navbar-brand" href="#">
+            <span class="badge badge-pill badge-warning py-2 px-3 d-flex align-items-center">
+              <span class="subscribe pr-1">SUBSCRIBE</span>
+              <span class="fas fa-chevron-right"></span>
+            </span>
+          </a>
+          <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navlinks">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        
+        <div class="main-links-sm collapse navbar-collapse d-lg-flex m-0 p-0" id="navlinks">
+          <ul class="navbar-nav d-lg-none bg-white text-dark px-3 font-weight-bold ">
+            <li class="icon-input nav-item">
+              <input class="border-0 w-100 nav-link" type="text" placeholder="Search">
+              <i class="fas fa-search"></i>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">U.S.</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">World</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tech & Science</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Newsgeek</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">The Debate</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
+          </ul>
+        </div>
+
+        <div class="main-links-lg d-none d-lg-flex">
+          <ul class="nav bg-white px-3 font-weight-bold flex-grow-1 justify-content-between align-items-center flex-nowrap">
+            <li class="nav-item"><a class="nav-link" href="#">U.S.</a></li>
+            <li class="separator border"></li>
+            <li class="nav-item"><a class="nav-link" href="#">World</a></li>
+            <li class="separator border"></li>
+            <li class="nav-item"><a class="nav-link" href="#">Business</a></li>
+            <li class="separator border"></li>
+            <li class="nav-item"><a class="nav-link" href="#">Tech & Science</a></li>
+            <li class="separator border"></li>
+            <li class="nav-item"><a class="nav-link" href="#">Culture</a></li>
+            <li class="separator border"></li>
+            <li class="nav-item"><a class="nav-link" href="#">Newsgeek</a></li>
+            <li class="separator border"></li>
+            <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+            <li class="separator border"></li>
+            <li class="nav-item"><a class="nav-link" href="#">Health</a></li>
+            <li class="separator border"></li>
+            <li class="nav-item"><a class="nav-link" href="#">The Debate</a></li>
+            <li class="separator border"></li>
+            <li class="nav-item"><a class="nav-link" href="#">Vantage</a></li>
+            <li class="separator border"></li>
+            <li class="nav-item"><a class="nav-link" href="#">Weather</a></li>
+            <li class="icon-input nav-item">
+              <input class="border-0 w-100 nav-link" type="text" placeholder="Search">
+              <i class="fas fa-search"></i>
+            </li>
+          </ul>
+          <div class="trapezoid d-none d-lg-block"></div>
+        </div>
+      </nav>
+      <div class="white-space bg-white border-bottom d-none d-lg-block"></div>
+
+      <ul class="secondary-links nav bg-white font-weight-bolder d-none d-lg-flex px-3 align-items-center flex-nowrap border-bottom border-top">
+        <li class="nav-item"><a class="nav-link" href="#">TRENDING</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">DONALD TRUMP</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">JOE BIDEN</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">2020 ELECTIONS</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">STIMULUS PACKAGE</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">CORONAVIRUS</a></li>
+        <li class="nav-item"><a class="nav-link text-secondary pr-5" href="#">COUNTRIES THAT COUNT</a></li>
+      </ul>
+    </section>
+  </header>
+
+  <main class="container-xl">
+    <div class="row no-gutters">
+
+      <div class="col-12 col-md-7 order-md-2 col-lg-5 sticky-md d-flex flex-column">
+        <section class="top-stories bg-white p-3">
+          <h2 class="text-muted">TOP STORY</h2>
+          <article>
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1663351/china-2020-election-donald-trump-joe-biden.jpg?w=591&h=364&f=95ccf1f0b9fbe253f1df9b4f75835d57" alt="World">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">WORLD</figcaption>
+            </figure>
+            <h3>Trump Lost the Election but the U.S.-China Relationship Is Forever Changed</h3>
+            <p>Four years of chaotic relations with President Donald Trump will soon be over, but a Biden Administration does not mean an end to the simmering U.S.-China confrontation.</p>
+          </article>
+        </section>
+
+        <section class="my-turn d-none d-md-block bg-white p-3 mt-3 mt-md-0">
+          <h2 class="text-muted">MY TURN</h2>
+          <div class="row">
+            <figure class="col my-1">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1669118/car-accident-teenager-utah.jpg?w=397&h=397&f=45dbdba3cb959860cb9573a9471cd74a" alt="my turn">
+              <figcaption>
+                <h4 class="text-secondary mt-3">'I'm 17. I Lost Both My Legs After a Head-On Car Crash'</h4>
+              </figcaption>
+            </figure>
+            <figure class="col my-1">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1669014/canada-emigraton-trump-presidential-election.jpg?w=397&h=397&f=01273440ad3df483a50a5546ffd0a938" alt="my turn">
+              <figcaption>
+                <h4 class="text-secondary mt-3">'We Moved To Canada in 2016 After Trump Won, We Won't Be Returning''</h4>
+              </figcaption>
+            </figure>
+            <figure class="col my-1">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1667965/chess-womens-chess-queens-gambit.png?w=397&h=397&f=35386f73ca5a1a7a87a128f9bd61dd2c" alt="my turn">
+              <figcaption>
+                <h4 class="text-secondary mt-3">'I'm The 2020 Women's Chess World Champion'</h4>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="culture d-none d-md-block bg-white p-3 mt-3 mt-md-0">
+          <h2 class="text-muted">CULTURE & TRAVEL</h2>
+          <div class="row">
+            <article class="col m-1">
+              <figure class="boxed shadow-sm">
+                <img class="w-100" src="https://d.newsweek.com/en/full/1668689/george-w-bush.jpg?w=397&h=397&f=95c3a34b9a3a899212e9753a1adc970a" alt="pets">
+                <figcaption class="text-dark py-1 px-3 font-weight-bold">pets</figcaption>
+              </figure>
+              <h4 class="text-secondary mt-3">A History of Presidential Pets</h4>
+            </article>
+            <article class="col m-1">
+              <figure class="boxed shadow-sm">
+                <img class="w-100" src="https://d.newsweek.com/en/full/1667614/abe-lincoln-times-square.jpg?w=397&h=397&f=cd92a8cb4736cf6892d991f4d89504aa" alt="Joe Biden">
+                <figcaption class="text-dark py-1 px-3 font-weight-bold">Joe Biden</figcaption>
+              </figure>
+              <h4 class="text-secondary mt-3">In Photos: Celebrations Over Biden Victory in Streets Across U.S.</h4>
+            </article>
+            <article class="col m-1">
+              <figure class="boxed shadow-sm">
+                <img class="w-100" src="https://d.newsweek.com/en/full/1662335/cul-map-007-banner.jpg?w=397&h=397&l=53&t=31&f=207962579d0717597d79c19dd3a18381" alt="James Bond">
+                <figcaption class="text-dark py-1 px-3 font-weight-bold">James Bond</figcaption>
+              </figure>
+              <h4 class="text-secondary mt-3">A Tribute to Sean Connery the Original 007: The Most Iconic Bond Locations</h4>
+            </article>
+          </div>
+        </section>
+
+        <section class="more-stories d-none d-md-block bg-white p-3 mt-3 mt-md-0">
+          <h2 class="text-muted">MORE STORIES</h2>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669100/rnc-chairwoman-ronna-mcdaniel.jpg?w=95&h=95&f=e5df0eebdc139bc7a133e492a5928bc5" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>Donald Trump Plans 2024 Run, Could Announce by End of Year: Report</h4>
+                <p class="m-0 text-secondary">Trump endorsed the chair of the Republican National Committee which could be part of the president's plans to run for reelection.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1663744/qanon.jpg?w=95&h=95&f=2c7794996ce9ad7bb7788009b5851fdb" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>QAnon Believers Have Lost Their Savior, But Their Power is Growing</h4>
+                <p class="m-0 text-secondary">What lies next for the conspiracy theory whose supporters believe Trump has been waging a secret war against the deep state for three years?</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669113/gottheimer.jpg?w=95&h=95&f=c812048cd325ae3cab4a2101de98dd01" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>Stimulus Package Delay 'Foolish,' 'Country is Out of Patience': Congressman</h4>
+                <p class="m-0 text-secondary">Bipartisan talks to reach a stimulus deal continue to stall, despite lawmakers having expressed support for further nationwide financial relief.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669179/mike-pompeo-secretary-state.jpg?w=95&h=95&f=2481c761fcec4d4b72770541c379cd28" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>'Get Ready to Go:' China Media Revels in Mike Pompeo's Looming Departure</h4>
+                <p class="m-0 text-secondary">Chinese Communist Party newspaper Global Times has been coy about its preferred presidential pick, but the state-run tabloid has never been shy about its criticism of the outgoing Secretary of State.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669234/army-officer-delivers-covid-test.jpg?w=95&h=95&f=3155841cb46f07987b6f2917c2dcf3b7" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>Britain Attempts to Test Whole Population for COVID</h4>
+                <p class="m-0 text-secondary">Officials are purchasing over 60 million tests a month with the hope to be the biggest country in the world to be testing everybody.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669005/man-walks-past-closed-shops-london.jpg?w=95&h=95&f=db4198125d5992b33ca5bea7252c5332" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>Vaccine Unlikely to Halt Unemployment as U.K. Job Losses Reach Record High</h4>
+                <p class="m-0 text-secondary">More than 782,000 people in the U.K. have lost their jobs during the pandemic and economists warn "we're not out of the woods yet".</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669123/us-marine.jpg?w=95&h=95&f=47f6f2d60e97fcd94ad6da0cdf4949a6" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>Pentagon, Taipei Refute Reports of U.S. Marines Training Taiwan Troops</h4>
+                <p class="m-0 text-secondary">In separate statements, the DoD and Taiwan's defense ministry both denied reports of training exercises involving U.S. Marines, despite conflicting accounts.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669239/sen-lindsey-graham-during-hearing.jpg?w=95&h=95&f=34efeece7d8b428653488afe7d995127" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>Lindsey Graham Says He'll Donate $1 Million to Georgia Senate Runoff Fight</h4>
+                <p class="m-0 text-secondary">Control of the Senate will be decided in Georgia on January 5 in what is expected to be an expensive race.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669196/dominic-raab.jpg?w=95&h=95&f=db436d71b7b76dc2d2a8a8c89802d3d7" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>U.K. Government Summons Chinese Ambassador After Expulsion of Hong Kong MPs</h4>
+                <p class="m-0 text-secondary">The four opposition MPs were expelled from Hong Kong's parliament after being accused of endangering national security.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669217/lansing.jpg?w=95&h=95&f=321078e6b64d382e6adefb3efaaef42d" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>Trump Supporters Make 'Statement' by Standing on BLM Mural During Protest</h4>
+                <p class="m-0 text-secondary">The rally was being lead by Nick Fuentes, a white nationalist who previously said segregation "was better" for Black people.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669210/senator-kelly-loeffler-georgia.jpg?w=95&h=95&f=3aee1a33ad91e933fbf129d977bcaa8f" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>Georgia Newspaper Rebukes Loeffler, Perdue Over 'Assault' on Elections</h4>
+                <p class="m-0 text-secondary">The Atlanta Journal-Constitution said the senators had "offered no specifics" in their attack on the elections.</p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1669174/donald-trump-joe-biden-2020-election-democracy.jpg?w=95&h=95&f=f636f807831cc79ce9721e7b8dff1478" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>Human Rights Groups, Historians Warn Trump Is a Threat to U.S. Democracy</h4>
+                <p class="m-0 text-secondary">Trump has still not accepted the result of last week's election and is baselessly claiming that Democrats are engaged in voter fraud to cheat him out of a second term.</p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+      </div>
+      
+      <div class="col-12 col-md-5 order-md-1 col-lg">
+        <section class="featured-stories bg-white p-3 mt-3 mt-md-0">
+          <h2 class="text-muted">FEATURED STORIES</h2>
+          <article>
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1668894/poll-workers-tabulate-ballots-nevada.jpg?w=397&h=265&q=90&f=64ae23a75230752369565d220040c2c9" alt="U.S">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">U.S.</figcaption>
+            </figure>
+            <h3>Trump Campaign Ends Nevada Supreme Court Appeal over Election Process</h3>
+            <p>The campaign has dismissed its own appeal so that a settlement could be submitted at the district court.</p>
+          </article>
+          <article>
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1668843/president-elect-joe-biden-addresses-media.jpg?w=397&h=265&q=90&f=ac7490d2c9327779b50aff63309fe87c" alt="Politics">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">POLITICS</figcaption>
+            </figure>
+            <h3>Biden Campaign on Course to Spend $18 for Every Vote Won</h3>
+            <p>The 2020 presidential election broke records for campaign spending with Joe Biden outstripping Donald Trump.</p>
+          </article>
+          <article>
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1668923/giuliani.jpg?w=397&h=265&q=90&f=6b7955409113a5f99efa9a0c7043f4c0" alt="Politics">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">POLITICS</figcaption>
+            </figure>
+            <h3>After Encouraging Harassment Lincoln Project Warns Trump Lawsuit Supporters</h3>
+            <p>The anti-Trump group took aim at the president and his allies in the GOP ahead of Election Day, and is now pivoting to target those supporting his actions since November 3.
+            </p>
+          </article>
+          <article>
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1668925/preside-elect-joe-bidencovid-19-advisory-board-getty.jpg?w=397&h=265&q=90&f=837c2d7b839ab73b94ed8b99f6bb69d9" alt="Health">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">HEALTH</figcaption>
+            </figure>
+            <h3>Biden's COVID Advisers Say Herd Immunity Could Kill Millions</h3>
+            <p>The controversial idea of letting the coronavirus spread freely in populations while protecting the vulnerable has been linked to the White House's COVID-19 policy.</p>
+          </article>
+          <article>
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1667369/biden.jpg?w=397&h=265&q=90&f=eea822dea7f2f6439d13c96002ddd373" alt="U.S">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">U.S.</figcaption>
+            </figure>
+            <h3>Black Lives Matter Won the Election, But They Don't See Biden as a Savior</h3>
+            <p>Jessica Byrd, the founder of the Movement for Black Lives' Electoral Justice Project, told Newsweek that the months of protests "changed the political conditions" for Biden to win.</p>
+          </article>
+          <h4 class="pt-2">Black Lives Matter Co-Founder Requests Meeting With Biden, Harris</h4>
+        </section>
+
+        <section class="article-cards d-none d-md-block bg-white p-3 mt-3 mt-md-0">
+          <h2 class="sr-only">A series of artilce cards</h2>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1665784/belgrade.jpg?w=500&h=333&f=57eea514867e1ea25f8806049985574e" alt="Sponsored insight">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">Serbia Has Risen to Become the Leading Investment Location in Central and Eastern Europe</h3>
+              <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented workforce, and high potential for future growth in sectors such as construction and IT.</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1661934/abilene-christian-university.jpg?w=500&h=333&f=7e368749d8141fe4c236c0073b4227a5" alt="Sponsored insight">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">Which Schools Have the Best Healthcare Programs?</h3>
+              <p class="card-text">If you are thinking about a career in Healthcare, you will want to start with the best qualifications from the top schools. Which ones are at the cutting edge?</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1640732/holy-angel-university.jpg?w=500&h=333&f=eb1178ccc2ae44eb6ce60701d4e0cf7f" alt="Sponsored insight">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">Leaders in Global Education 2020</h3>
+              <p class="card-text">What does it take to be a leader in Global Education? What sets the best Universities apart from the others on the world stage? Find out more.</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1666606/best-stem-2021.png?w=500&h=333&f=880298d0d01b4e21f850884f426ebeba" alt="Stem">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Stem</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">Best in STEM 2021</h3>
+              <p class="card-text">Meet the toymakers and brands who are lending a helping hand to science, technology, engineering and math (STEM) education.</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1648617/americas-best-banks-2021.png?w=500&h=333&f=74c82cc715af044c22cf4532a60c043f" alt="Rankings">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Rankings</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">America's Best Banks 2021</h3>
+              <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1641228/worlds-best-specialized-hospitals-2021.png?w=500&h=333&f=78fc1236f2add4e7e946c17e20a9b978" alt="Rankings">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Rankings</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">World's Best Specialized Hospitals 2021</h3>
+              <p class="card-text">In the first part of this special, we rank the best hospitals in cardiology, oncology and endocrinology.</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1630878/best-online-shops-2021.png?w=500&h=333&f=46c7b25c74ea86488ef5b9c837c4f393" alt="Rankings">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Rankings</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">Best Online Shops 2021</h3>
+              <p class="card-text">Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups.</p>
+            </div>
+          </article> 
+        </section>
+      </div>
+
+      <div class="col-12 col-lg order-md-3 sticky-lg d-flex flex-column">
+        <section class="debate bg-white p-3 mt-3 mt-md-0">
+          <h2 class="text-muted">THE DEBATE</h2>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1658151/will-chamberlain.png?w=63&h=63&f=0f67e4867a449c492c69eace2d4fc225" alt="Will Chamberlain">
+              <figcaption class="pl-3">
+                <h4>Reform Section 230 Now</h4>
+                <p class="m-0">BY <strong>WILL CHAMBERLAIN</strong></p>
+              </figcaption>
+            </figure>
+            <div class="vs-wrapper">
+              <div class="line"></div>
+              <div class="vs bg-dark text-white rounded-circle d-flex justify-content-center align-items-center">
+                <p class="m-0 p-0">VS</p>
+              </div>
+            </div>
+            <figure class="d-flex align-items-center justify-content-between mt-3">
+              <figcaption class="pl-3">
+                <h4>Leave Section 230 Alone</h4>
+                <p class="m-0">BY <strong>MATTHEW FEENEY</strong></p>
+              </figcaption>
+              <img src="https://d.newsweek.com/en/full/1661065/matthew-feeney.png?w=63&h=63&f=826520efe202ccf595116c471a294d6f" alt="MATTHEW FEENEY">
+            </figure>
+          </div>
+        </section>
+
+        <section class="opinion bg-white p-3 mt-3 mt-md-0">
+          <h2 class="text-muted">OPINION</h2>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1595774/gordon-chang.png?w=63&h=63&f=e6ac7c2e3f20ff658db6088a2c2ebef7" alt="BY GORDON G. CHANG">
+              <figcaption class="pl-3">
+                <h4>China Completes Subjugation of Hong Kong, Comes for America</h4>
+                <p class="m-0 text-secondary"><strong>BY GORDON G. CHANG</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1588751/jason-rantz.png?w=63&h=63&f=f8afd026e20e8ab3f6d6fa08c4efc72c" alt="Will Chamberlain">
+              <figcaption class="pl-3">
+                <h4>Real Diversity Is Good. Fake Diversity Isn't | Opinion</h4>
+                <p class="m-0 text-secondary"><strong>BY JASON RANTZ</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/83499/newt-gingrich.png?w=63&h=63&l=48&t=55&f=d8b4f8dfaad8a5f0f71bffcc6c0d6a77" alt="Will Chamberlain">
+              <figcaption class="pl-3">
+                <h4>The Imperative of a Constitutional Presidential Election</h4>
+                <p class="m-0 text-secondary"><strong>BY NEWT GINGRICH</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/100577/daniel-r-depetris.png?w=63&h=63&f=557e36e1b094f95cf0416216ba9ecaa7" alt="Will Chamberlain">
+              <figcaption class="pl-3">
+                <h4>Trump's Foreign Policy Wasn't All Wrong. Here's What Biden Should Retain</h4>
+                <p class="m-0 text-secondary"><strong>BY DANIEL R. DEPETRIS</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1591836/jonathan-tobin.png?w=63&h=63&f=3de733b09b3c97b87933e4368ae4e559" alt="Will Chamberlain">
+              <figcaption class="pl-3">
+                <h4>Democrats' Sore Loser Hypocrisy Is Damaging Democracy</h4>
+                <p class="m-0 text-secondary"><strong>BY JONATHAN TOBIN</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1561683/doug-gordon.png?w=63&h=63&f=2ee0e0bead2b09866ef97374e69a1501" alt="Will Chamberlain">
+              <figcaption class="pl-3">
+                <h4>Let's Be Clear: Voters Gave Joe Biden a Decisive Mandate</h4>
+                <p class="m-0 text-secondary"><strong>BY DOUG GORDON</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="wrapper">
+            <figure class="d-flex align-items-center mt-3">
+              <img src="https://d.newsweek.com/en/full/1596837/michele-goodwin.png?w=63&h=63&f=f64b9f55b70690270af56ffd3a31778d" alt="Will Chamberlain">
+              <figcaption class="pl-3">
+                <h4>A Woman Vice President? That's Not Remotely Enough</h4>
+                <p class="m-0 text-secondary"><strong>BY MICHELE GOODWIN</strong></p>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <section class="article-cards2 d-none d-lg-block bg-white p-3 mt-3 mt-md-0">
+          <h2 class="sr-only">A series of artilce cards</h2>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1665779/helsinki.jpg?w=500&h=333&l=51&t=26&f=71217afb38e03481203ca4f14d3249af" alt="Sponsored insight">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">Finland: Sustainability and Innovation</h3>
+              <p class="card-text">The country is powering through a pandemic that brought global growth to a standstill, supported by its world-leading tech sector and innovative industries.</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1662161/southeast-missouri-state-university.png?w=500&h=333&f=6efc28752937c3380b6c875db3a8fa98" alt="Sponsored insight">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">Would You Like a Career That Will Make a Real Difference?</h3>
+              <p class="card-text">Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1649391/portland-state-university-mark-o-hatfield-school.jpg?w=500&h=333&f=a960f17c68d833f392876f15c37c8a36" alt="Sponsored insight">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">Why are these careers so highly sought after?</h3>
+              <p class="card-text">These are some of the most highly rated careers areas today. How do you get started in them?</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1644076/americas-best-nursing-homes-2020.png?w=500&h=333&f=111d8839cccafaae6c19be7a5c9267ce" alt="Rankings">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Rankings</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">America's Best Nursing Homes 2021</h3>
+              <p class="card-text">In partnership with Statista, we established a ranking providing information and insights to help you during this challenging time.</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1641122/university-arkansas-school-art.jpg?w=500&h=333&l=0&t=0&f=e1d305d4f1da240ef0d3a27b47adc818" alt="Sponsored insight">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">Who has the Leading Art, Design and Architecture Programs in 2020?</h3>
+              <p class="card-text">The best Art, Design and Architecture schools use a recipe consisting of a blend of ingredients. Read more here.Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1638920/image-3-this-startup-making.jpg?w=500&h=333&f=d3ab894bb4a4f0a8af53551fabfb306d" alt="Sponsored insight">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</h3>
+              <p class="card-text">75% of Roofstock users are first-time real estate investors, and more than half are under 35..</p>
+            </div>
+          </article>
+          <article class="card mb-4">
+            <figure class="card-img-top boxed">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1621635/americas-best-addiction-treatment-centers-2020.png?w=500&h=333&f=882d6618257cbde5fd5acc54362e6fe9" alt="Rankings">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Rankings</figcaption>
+            </figure>
+            <div class="card-body">
+              <h3 class="card-title font-weight-bolder">America's Best Addiction Treatment Centers 2020</h3>
+              <p class="card-text">Newsweek partnered with global market research firm Statista Inc. to rank the best U.S. treatment facilities that focus on addiction.</p>
+            </div>
+          </article> 
+        </section>
+      </div>
+    </div>
+
+  
+  
+      <section class="article-cards d-md-none bg-white p-3 mt-3 mt-md-0">
+        <h2 class="sr-only">A series of artilce cards</h2>
+        <article class="card mb-4">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1665784/belgrade.jpg?w=500&h=333&f=57eea514867e1ea25f8806049985574e" alt="Sponsored insight">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">Serbia Has Risen to Become the Leading Investment Location in Central and Eastern Europe</h3>
+            <p class="card-text">Offering customs-free access to 15% of the global market, a young, talented workforce, and high potential for future growth in sectors such as construction and IT.</p>
+          </div>
+        </article>
+        <article class="card mb-4">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1661934/abilene-christian-university.jpg?w=500&h=333&f=7e368749d8141fe4c236c0073b4227a5" alt="Sponsored insight">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">Which Schools Have the Best Healthcare Programs?</h3>
+            <p class="card-text">If you are thinking about a career in Healthcare, you will want to start with the best qualifications from the top schools. Which ones are at the cutting edge?</p>
+          </div>
+        </article>
+        <article class="card mb-4">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1640732/holy-angel-university.jpg?w=500&h=333&f=eb1178ccc2ae44eb6ce60701d4e0cf7f" alt="Sponsored insight">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">Leaders in Global Education 2020</h3>
+            <p class="card-text">What does it take to be a leader in Global Education? What sets the best Universities apart from the others on the world stage? Find out more.</p>
+          </div>
+        </article>
+        <article class="card mb-4">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1666606/best-stem-2021.png?w=500&h=333&f=880298d0d01b4e21f850884f426ebeba" alt="Stem">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Stem</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">Best in STEM 2021</h3>
+            <p class="card-text">Meet the toymakers and brands who are lending a helping hand to science, technology, engineering and math (STEM) education.</p>
+          </div>
+        </article>
+        <article class="card mb-4">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1648617/americas-best-banks-2021.png?w=500&h=333&f=74c82cc715af044c22cf4532a60c043f" alt="Rankings">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Rankings</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">America's Best Banks 2021</h3>
+            <p class="card-text">Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+          </div>
+        </article>
+        <article class="card mb-4">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1641228/worlds-best-specialized-hospitals-2021.png?w=500&h=333&f=78fc1236f2add4e7e946c17e20a9b978" alt="Rankings">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Rankings</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">World's Best Specialized Hospitals 2021</h3>
+            <p class="card-text">In the first part of this special, we rank the best hospitals in cardiology, oncology and endocrinology.</p>
+          </div>
+        </article>
+        <article class="card mb-4">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1630878/best-online-shops-2021.png?w=500&h=333&f=46c7b25c74ea86488ef5b9c837c4f393" alt="Rankings">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Rankings</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">Best Online Shops 2021</h3>
+            <p class="card-text">Newsweek and Statista are recognizing 1,000 shops across 39 categories in eight groups.</p>
+          </div>
+        </article> 
+      </section>
+
+      <section class="more-stories d-md-none bg-white p-3 mt-3 mt-md-0">
+        <h2 class="text-muted">MORE STORIES</h2>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669100/rnc-chairwoman-ronna-mcdaniel.jpg?w=95&h=95&f=e5df0eebdc139bc7a133e492a5928bc5" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>Donald Trump Plans 2024 Run, Could Announce by End of Year: Report</h4>
+              <p class="m-0 text-secondary">Trump endorsed the chair of the Republican National Committee which could be part of the president's plans to run for reelection.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1663744/qanon.jpg?w=95&h=95&f=2c7794996ce9ad7bb7788009b5851fdb" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>QAnon Believers Have Lost Their Savior, But Their Power is Growing</h4>
+              <p class="m-0 text-secondary">What lies next for the conspiracy theory whose supporters believe Trump has been waging a secret war against the deep state for three years?</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669113/gottheimer.jpg?w=95&h=95&f=c812048cd325ae3cab4a2101de98dd01" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>Stimulus Package Delay 'Foolish,' 'Country is Out of Patience': Congressman</h4>
+              <p class="m-0 text-secondary">Bipartisan talks to reach a stimulus deal continue to stall, despite lawmakers having expressed support for further nationwide financial relief.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669179/mike-pompeo-secretary-state.jpg?w=95&h=95&f=2481c761fcec4d4b72770541c379cd28" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>'Get Ready to Go:' China Media Revels in Mike Pompeo's Looming Departure</h4>
+              <p class="m-0 text-secondary">Chinese Communist Party newspaper Global Times has been coy about its preferred presidential pick, but the state-run tabloid has never been shy about its criticism of the outgoing Secretary of State.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669234/army-officer-delivers-covid-test.jpg?w=95&h=95&f=3155841cb46f07987b6f2917c2dcf3b7" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>Britain Attempts to Test Whole Population for COVID</h4>
+              <p class="m-0 text-secondary">Officials are purchasing over 60 million tests a month with the hope to be the biggest country in the world to be testing everybody.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669005/man-walks-past-closed-shops-london.jpg?w=95&h=95&f=db4198125d5992b33ca5bea7252c5332" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>Vaccine Unlikely to Halt Unemployment as U.K. Job Losses Reach Record High</h4>
+              <p class="m-0 text-secondary">More than 782,000 people in the U.K. have lost their jobs during the pandemic and economists warn "we're not out of the woods yet".</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669123/us-marine.jpg?w=95&h=95&f=47f6f2d60e97fcd94ad6da0cdf4949a6" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>Pentagon, Taipei Refute Reports of U.S. Marines Training Taiwan Troops</h4>
+              <p class="m-0 text-secondary">In separate statements, the DoD and Taiwan's defense ministry both denied reports of training exercises involving U.S. Marines, despite conflicting accounts.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669239/sen-lindsey-graham-during-hearing.jpg?w=95&h=95&f=34efeece7d8b428653488afe7d995127" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>Lindsey Graham Says He'll Donate $1 Million to Georgia Senate Runoff Fight</h4>
+              <p class="m-0 text-secondary">Control of the Senate will be decided in Georgia on January 5 in what is expected to be an expensive race.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669196/dominic-raab.jpg?w=95&h=95&f=db436d71b7b76dc2d2a8a8c89802d3d7" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>U.K. Government Summons Chinese Ambassador After Expulsion of Hong Kong MPs</h4>
+              <p class="m-0 text-secondary">The four opposition MPs were expelled from Hong Kong's parliament after being accused of endangering national security.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669217/lansing.jpg?w=95&h=95&f=321078e6b64d382e6adefb3efaaef42d" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>Trump Supporters Make 'Statement' by Standing on BLM Mural During Protest</h4>
+              <p class="m-0 text-secondary">The rally was being lead by Nick Fuentes, a white nationalist who previously said segregation "was better" for Black people.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669210/senator-kelly-loeffler-georgia.jpg?w=95&h=95&f=3aee1a33ad91e933fbf129d977bcaa8f" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>Georgia Newspaper Rebukes Loeffler, Perdue Over 'Assault' on Elections</h4>
+              <p class="m-0 text-secondary">The Atlanta Journal-Constitution said the senators had "offered no specifics" in their attack on the elections.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="wrapper">
+          <figure class="d-flex align-items-center mt-3">
+            <img src="https://d.newsweek.com/en/full/1669174/donald-trump-joe-biden-2020-election-democracy.jpg?w=95&h=95&f=f636f807831cc79ce9721e7b8dff1478" alt="BY GORDON G. CHANG">
+            <figcaption class="pl-3">
+              <h4>Human Rights Groups, Historians Warn Trump Is a Threat to U.S. Democracy</h4>
+              <p class="m-0 text-secondary">Trump has still not accepted the result of last week's election and is baselessly claiming that Democrats are engaged in voter fraud to cheat him out of a second term.</p>
+            </figcaption>
+          </figure>
+        </div>
+  
+      </section>
+
+      <section class="my-turn d-md-none bg-white p-3 mt-3 mt-md-0">
+        <h2 class="text-muted">MY TURN</h2>
+        <figure class="my-4">
+          <img class="w-100" src="https://d.newsweek.com/en/full/1669118/car-accident-teenager-utah.jpg?w=397&h=397&f=45dbdba3cb959860cb9573a9471cd74a" alt="my turn">
+          <figcaption>
+            <h4 class="text-secondary mt-3">'I'm 17. I Lost Both My Legs After a Head-On Car Crash'</h4>
+          </figcaption>
+        </figure>
+        <figure class="my-4">
+          <img class="w-100" src="https://d.newsweek.com/en/full/1669014/canada-emigraton-trump-presidential-election.jpg?w=397&h=397&f=01273440ad3df483a50a5546ffd0a938" alt="my turn">
+          <figcaption>
+            <h4 class="text-secondary mt-3">'We Moved To Canada in 2016 After Trump Won, We Won't Be Returning''</h4>
+          </figcaption>
+        </figure>
+        <figure class="my-4">
+          <img class="w-100" src="https://d.newsweek.com/en/full/1667965/chess-womens-chess-queens-gambit.png?w=397&h=397&f=35386f73ca5a1a7a87a128f9bd61dd2c" alt="my turn">
+          <figcaption>
+            <h4 class="text-secondary mt-3">'I'm The 2020 Women's Chess World Champion'</h4>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="culture d-md-none bg-white p-3 mt-3 mt-md-0">
+        <h2 class="text-muted">CULTURE & TRAVEL</h2>
+        <article class="mt-3 mb-4">
+          <figure class="boxed shadow-sm">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1668689/george-w-bush.jpg?w=397&h=397&f=95c3a34b9a3a899212e9753a1adc970a" alt="pets">
+            <figcaption class="text-dark py-1 px-3 font-weight-bold">pets</figcaption>
+          </figure>
+          <h4 class="text-secondary mt-3">A History of Presidential Pets</h4>
+        </article>
+        <article class="mt-3 mb-4">
+          <figure class="boxed shadow-sm">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1667614/abe-lincoln-times-square.jpg?w=397&h=397&f=cd92a8cb4736cf6892d991f4d89504aa" alt="Joe Biden">
+            <figcaption class="text-dark py-1 px-3 font-weight-bold">Joe Biden</figcaption>
+          </figure>
+          <h4 class="text-secondary mt-3">In Photos: Celebrations Over Biden Victory in Streets Across U.S.</h4>
+        </article>
+        <article class="mt-3 mb-4">
+          <figure class="boxed shadow-sm">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1662335/cul-map-007-banner.jpg?w=397&h=397&l=53&t=31&f=207962579d0717597d79c19dd3a18381" alt="James Bond">
+            <figcaption class="text-dark py-1 px-3 font-weight-bold">James Bond</figcaption>
+          </figure>
+          <h4 class="text-secondary mt-3">A Tribute to Sean Connery the Original 007: The Most Iconic Bond Locations</h4>
+        </article>
+      </section>
+
+      <section class="article-cards2 d-lg-none bg-white p-3 mt-3 mt-md-0">
+        <h2 class="sr-only">A series of artilce cards</h2>
+        <article class="card mb-4 w-md-50">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1665779/helsinki.jpg?w=500&h=333&l=51&t=26&f=71217afb38e03481203ca4f14d3249af" alt="Sponsored insight">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">Finland: Sustainability and Innovation</h3>
+            <p class="card-text">The country is powering through a pandemic that brought global growth to a standstill, supported by its world-leading tech sector and innovative industries.</p>
+          </div>
+        </article>
+        <article class="card mb-4 w-md-50">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1662161/southeast-missouri-state-university.png?w=500&h=333&f=6efc28752937c3380b6c875db3a8fa98" alt="Sponsored insight">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">Would You Like a Career That Will Make a Real Difference?</h3>
+            <p class="card-text">Stop thinking about being a teacher and get started on your path to one of the most rewarding careers in the world. Find out where to get qualified.</p>
+          </div>
+        </article>
+        <article class="card mb-4 w-md-50">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1649391/portland-state-university-mark-o-hatfield-school.jpg?w=500&h=333&f=a960f17c68d833f392876f15c37c8a36" alt="Sponsored insight">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">Why are these careers so highly sought after?</h3>
+            <p class="card-text">These are some of the most highly rated careers areas today. How do you get started in them?</p>
+          </div>
+        </article>
+        <article class="card mb-4 w-md-50">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1644076/americas-best-nursing-homes-2020.png?w=500&h=333&f=111d8839cccafaae6c19be7a5c9267ce" alt="Rankings">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Rankings</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">America's Best Nursing Homes 2021</h3>
+            <p class="card-text">In partnership with Statista, we established a ranking providing information and insights to help you during this challenging time.</p>
+          </div>
+        </article>
+        <article class="card mb-4 w-md-50">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1641122/university-arkansas-school-art.jpg?w=500&h=333&l=0&t=0&f=e1d305d4f1da240ef0d3a27b47adc818" alt="Sponsored insight">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">Who has the Leading Art, Design and Architecture Programs in 2020?</h3>
+            <p class="card-text">The best Art, Design and Architecture schools use a recipe consisting of a blend of ingredients. Read more here.Introducing Newsweek's first ranking of the financial institutions that best serve their customers' needs in today's challenging times.</p>
+          </div>
+        </article>
+        <article class="card mb-4 w-md-50">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1638920/image-3-this-startup-making.jpg?w=500&h=333&f=d3ab894bb4a4f0a8af53551fabfb306d" alt="Sponsored insight">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Sponsored insight</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">This Startup Is Making Long Distance Real Estate Investing Possible for Millennials</h3>
+            <p class="card-text">75% of Roofstock users are first-time real estate investors, and more than half are under 35..</p>
+          </div>
+        </article>
+        <article class="card mb-4 w-md-50">
+          <figure class="card-img-top boxed">
+            <img class="w-100" src="https://d.newsweek.com/en/full/1621635/americas-best-addiction-treatment-centers-2020.png?w=500&h=333&f=882d6618257cbde5fd5acc54362e6fe9" alt="Rankings">
+            <figcaption class="bg-white py-1 px-3 font-weight-bold text-primary">Rankings</figcaption>
+          </figure>
+          <div class="card-body">
+            <h3 class="card-title font-weight-bolder">America's Best Addiction Treatment Centers 2020</h3>
+            <p class="card-text">Newsweek partnered with global market research firm Statista Inc. to rank the best U.S. treatment facilities that focus on addiction.</p>
+          </div>
+        </article> 
+      </section>
+
+      <section class="magazine bg-white p-3 mt-3 mt-md-0">
+        <h2 class="font-weight-bolder mb-3 d-flex justify-content-center align-items-center border-md-bottom">
+          <span class="logo px-1 py-1 text-white mr-2">N</span>
+          IN THE MAGAZINE
+        </h2>
+        <div class="row align-items-end">
+          <article class="col-12 col-md-3 mb-3">
+            <figure class="boxed shadow-sm mb-2">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1668137/cover-november-20-2020.jpg?w=360&h=480&q=90&f=7efa2aa31a6dc02a05a9d713be944da7" alt="November 20 Issue">
+              <figcaption class="issue bg-white py-1 px-3 font-weight-bold">November 20 Issue</figcaption>
+            </figure>
+            <h3 class="see-all font-weight-bolder mb-2 d-flex justify-content-center align-items-end bg-light">
+              SEE ALL FEATURES
+              <i class="fas fa-chevron-right ml-2"></i>
+            </h3>
+          </article>
+          <div class="col-12 col-md-9 d-none d-md-flex row">
+            <article class="col-12 col-md-4 mb-4">
+              <figure class="mb-0">
+                <img class="image w-100" src="https://d.newsweek.com/en/full/1667282/fe-biden-cover-feature-01.jpg?w=466&h=311&l=50&t=43&q=90&f=caf3ae86be0b27d2194e0a5fc3bf5726" alt="Politics">
+                <figcaption class="mt-2">
+                  <button type="button" class="btn btn-danger">COVER</button>
+                  <button type="button" class="btn text-danger font-weight-bold">POLITCS</button>
+                </figcaption>
+              </figure>
+              <h4>Progressive Priorities at Risk as Biden Plans to Deal with McConnell</h4>
+            </article>
+            <article class="col-12 col-md-4 mb-4">
+              <figure class="mb-0">
+                <img class="image w-100" src="https://d.newsweek.com/en/full/1664636/uber-driver-prop-22.jpg?w=466&h=311&q=90&f=9790a1ce967ee7246e7434c7dc2a82a1" alt="business">
+                <figcaption class="mt-2">
+                  <button type="button" class="btn btn-danger">PERISCOPE</button>
+                  <button type="button" class="btn text-danger font-weight-bold">BUSINESS</button>
+                </figcaption>
+              </figure>
+              <h4>California Voters Saved the Gig Economy But Workers May Pay a Heavy Price</h4>
+            </article>
+            <article class="col-12 col-md-4 mb-4">
+              <figure class="mb-0">
+                <img class="image w-100" src="https://d.newsweek.com/en/full/1667703/cul-eno-banner-02.jpg?w=466&h=311&l=49&t=54&q=90&f=40d7623eac93a07ae734dc3e539e28dc" alt="Culture">
+                <figcaption class="mt-2">
+                  <button type="button" class="btn btn-danger">DOWNTIME</button>
+                  <button type="button" class="btn text-danger font-weight-bold">CULTURE</button>
+                </figcaption>
+              </figure>
+              <h4>The "non-musician" has been scoring films since 1969</h4>
+            </article>
+          </div>
+          <div class="d-md-none">
+            <article class="col-12 col-md-4 mb-4">
+              <figure class="mb-0">
+                <img class="w-100" src="https://d.newsweek.com/en/full/1667282/fe-biden-cover-feature-01.jpg?w=466&h=311&l=50&t=43&q=90&f=caf3ae86be0b27d2194e0a5fc3bf5726" alt="Politics">
+                <figcaption class="mt-2">
+                  <button type="button" class="btn btn-danger">COVER</button>
+                  <button type="button" class="btn text-danger font-weight-bold">POLITCS</button>
+                </figcaption>
+              </figure>
+              <h4>Progressive Priorities at Risk as Biden Plans to Deal with McConnell</h4>
+            </article>
+            <article class="col-12 col-md-4 mb-4">
+              <figure class="mb-0">
+                <img class="w-100" src="https://d.newsweek.com/en/full/1664636/uber-driver-prop-22.jpg?w=466&h=311&q=90&f=9790a1ce967ee7246e7434c7dc2a82a1" alt="business">
+                <figcaption class="mt-2">
+                  <button type="button" class="btn btn-danger">PERISCOPE</button>
+                  <button type="button" class="btn text-danger font-weight-bold">BUSINESS</button>
+                </figcaption>
+              </figure>
+              <h4>California Voters Saved the Gig Economy But Workers May Pay a Heavy Price</h4>
+            </article>
+            <article class="col-12 col-md-4 mb-4">
+              <figure class="mb-0">
+                <img class="w-100" src="https://d.newsweek.com/en/full/1667703/cul-eno-banner-02.jpg?w=466&h=311&l=49&t=54&q=90&f=40d7623eac93a07ae734dc3e539e28dc" alt="Culture">
+                <figcaption class="mt-2">
+                  <button type="button" class="btn btn-danger">DOWNTIME</button>
+                  <button type="button" class="btn text-danger font-weight-bold">CULTURE</button>
+                </figcaption>
+              </figure>
+              <h4>The "non-musician" has been scoring films since 1969</h4>
+            </article>
+          </div>
+        </div>
+        <div class="row">
+          <article class="col-12 col-md-3 mb-4">
+            <figure class="mb-0">
+              <img class="image w-100" src="https://d.newsweek.com/en/full/1662335/cul-map-007-banner.jpg?w=466&h=311&l=53&t=31&q=90&f=559906f43d38d7ee16b4cbffaf7777e3" alt="Culture">
+              <figcaption class="mt-2">
+                <button type="button" class="btn btn-danger">DOWNTIME</button>
+                <button type="button" class="btn text-danger font-weight-bold">CULTURE</button>
+              </figcaption>
+            </figure>
+            <h4>A Tribute to Sean Connery the Original 007: The Most Iconic Bond Locations</h4>
+          </article>
+          <article class="col-12 col-md-3 mb-4">
+            <figure class="mb-0">
+              <img class="image w-100" src="https://d.newsweek.com/en/full/1656435/parting-shot-kristen-chenoweth.jpg?w=466&h=311&l=48&t=47&q=90&f=85cfd669714f345e295059e2456aa3c9" alt="Culture">
+              <figcaption class="mt-2">
+                <button type="button" class="btn btn-danger">DOWNTIME</button>
+                <button type="button" class="btn text-danger font-weight-bold">CULTURE</button>
+              </figcaption>
+            </figure>
+            <h4>Kristin Chenoweth On 'The Witches' and Broadway's Return Post-COVID</h4>
+          </article>
+          <article class="col-12 col-md-3 mb-3">
+            <figure class="mb-1">
+              <img class="image w-100" src="https://d.newsweek.com/en/full/1668145/party-time.jpg?w=480&h=320&q=90&f=7c3dd586087cc5b3b475ff2529ac708d" alt="Culture">
+              <figcaption class="mt-2">
+                <button type="button" class="btn btn-danger">IN FOCUS</button>
+              </figcaption>
+            </figure>
+            <h4>PARTY TIME</h4>
+          </article>
+        </div>
+       </section>
+
+       <section class="editors-pick  bg-white p-3">
+        <h2 class="font-weight-bolder pb-2 mb-3 d-flex justify-content-center align-items-center border-bottom">
+          <span class="logo px-2 py-1 text-white mr-2">N</span>
+          EDITOR'S PICK
+        </h2>
+        <div class="row">
+          <article class="col-12 col-md-6 col-lg-3">
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1663351/china-2020-election-donald-trump-joe-biden.jpg?w=591&h=364&f=95ccf1f0b9fbe253f1df9b4f75835d57" alt="World">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">WORLD</figcaption>
+            </figure>
+            <h3>Trump Lost the Election but the U.S.-China Relationship Is Forever Changed</h3>
+            <p>Four years of chaotic relations with President Donald Trump will soon be over, but a Biden Administration does not mean an end to the simmering U.S.-China confrontation.</p>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3">
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1669174/donald-trump-joe-biden-2020-election-democracy.jpg?w=397&h=295&f=e075cd6e4fe2a311d41dab2ebb7fd0a0" alt="U.S.">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">U.S.</figcaption>
+            </figure>
+            <h3>Human Rights Groups, Historians Warn Trump Is a Threat to U.S. Democracy</h3>
+            <p>Trump has still not accepted the result of last week's election and is baselessly claiming that Democrats are engaged in voter fraud to cheat him out of a second term.</p>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3">
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1669194/hawaii-volcano-lake.png?w=397&h=295&l=47&t=51&f=4e7aefe1ea29c6ce34652d61c324b6d4" alt="Tech & Science">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">Tech & Science</figcaption>
+            </figure>
+            <h3>Time-Lapse Film Shows Boiling Lake Inside Hawaii's Kilauea Volcano Growing</h3>
+            <p>The lake, which appeared after the eruptions in 2018, is expected to reach up to 230 feet in depth.</p>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3">
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1669140/bigfin-squid.jpg?w=397&h=295&f=4f879e07943411be087251daabe93668" alt="Tech & Science">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">Tech & Science</figcaption>
+            </figure>
+            <h3>Incredibly Rare and Mysterious Sea Creature Filmed in the Abyss</h3>
+            <p>This is the first time the 23-foot-long creature has been recorded in Australian waters.</p>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3">
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1669070/donald-trump.jpg?w=397&h=295&f=c8468d2dfd35063ceec86b5d62b08ed0" alt="U.S">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">U.S</figcaption>
+            </figure>
+            <h3>House Majority Whip Clyburn Says U.S. 'Teetering' Toward Trump Dictatorship</h3>
+            <p>"I've been telling people for a long time now I'm beginning to see what happened in Germany back in the 1930s," Congressman Clyburn said on CNN on Tuesday.</p>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3">
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1668811/giuliani.jpg?w=397&h=295&f=a930332699ab6340322bf744daed831f" alt="Politics">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">"Politics</figcaption>
+            </figure>
+            <h3>Giuliani Touts New Affidavits as Trump Lawsuits Fail to Show Mass Fraud</h3>
+            <p>The Trump campaign has insisted there was widespread irregularities with votes, though has failed thus far to substantiate the claims.</p>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3">
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1668820/joe-biden-media-briefing-coronavirus-november-2020.jpg?w=397&h=295&f=48fd559cb37625ec252dbcbc8b3479a7" alt="News">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">News</figcaption>
+            </figure>
+            <h3>What Joe Biden Has Said About a Nationwide Lockdown If COVID Cases Grow</h3>
+            <p>President-elect Biden will "spare no effort to turn this pandemic around" and his COVID-19 strategy will "follow the science."</p>
+          </article>
+          <article class="col-12 col-md-6 col-lg-3">
+            <figure class="boxed shadow-sm">
+              <img class="w-100" src="https://d.newsweek.com/en/full/1668843/president-elect-joe-biden-addresses-media.jpg?w=397&h=295&f=ac3e3c6eee1697a794cb1ac0abfd471f" alt="Politics">
+              <figcaption class="bg-white py-1 px-3 font-weight-bold">"Politics</figcaption>
+            </figure>
+            <h3>Biden Campaign on Course to Spend $18 for Every Vote Won</h3>
+            <p>The 2020 presidential election broke records for campaign spending with Joe Biden outstripping Donald Trump.</p>
+          </article>
+        </div>
+        <div class="editors-content">
+          <div class="us border-top pt-4 mt-4">
+            <h2 class="font-weight-bolder">U.S</h2>
+            <div class="row">
+              <div class="main-content col-12 col-md-7 col-lg-8 row">
+                <figure class="mb-4 col-12 col-md-6">
+                  <img class="w-100" src="https://d.newsweek.com/en/full/1669929/justice-samuel-alito.jpg?w=397&h=265&f=3e5d495c21940f5c6ac10a85e036fb18" alt="U.S">
+                  <h3 class="my-2">SC Justice Alito Says COVID Led to 'Previously Unimaginable Restrictions'</h3>
+                </figure>
+                <figure class="mb-4 col-12 col-md-6">
+                  <img class="w-100" src="https://d.newsweek.com/en/full/1669924/nancy-pelosi.jpg?w=397&h=265&f=aff448876df6257e5a3ec81f432bb2cb" alt="U.S">
+                  <h3 class="my-2">Pelosi Refuses Responsibility for Losing Seats, Takes Credit for House Win</h3>
+                </figure>
+              </div>
+              <div class="side-content col-12 col-md-5 col-lg-4">
+                <figure class="row">
+                  <img class="w-100 h-auto col-4" src="https://d.newsweek.com/en/full/1663058/melania-trump.jpg?w=397&h=265&f=98439c2936b9e22df9b3ce2b75afffe9" alt="U.S">
+                  <h3 class="my-2 col-8">Fact Check: Did Melania Say 'Final Holiday Season' For Trump's White House?</h3>
+                </figure>
+                <figure class="row">
+                  <img class="w-100 col-4" src="https://d.newsweek.com/en/full/1669919/college-students-covid.jpg?w=95&h=95&f=4b853d7c7833845d5fbadae304a5f079" alt="U.S">
+                  <h3 class="my-2 col-8">Half of Young Adults Report Struggling With Mental Health During COVID</h3>
+                </figure>
+                <figure class="row">
+                  <img class="w-100 col-4" src="https://d.newsweek.com/en/full/1669809/kelly-loeffler.jpg?w=95&h=95&f=3ecff963a803ab2e45c3f01b6b0146c3" alt="U.S">
+                  <h3 class="my-2 col-8">What the Polls Say About Loeffler vs. Warnock in Georgia Senate Runoff</h3>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="world border-top pt-4 mt-4">
+            <h2 class="font-weight-bolder">World</h2>
+            <div class="row">
+              <div class="main-content col-12 col-md-7 col-lg-8 row">
+                <figure class="mb-4 col-12 col-md-6">
+                  <img class="w-100" src="https://d.newsweek.com/en/full/1669911/white-house-donald-trump-election.jpg?w=397&h=265&f=a464c084c3184a48d9b0cc42fd2222e0" alt="U.S">
+                  <h3 class="my-2">International Observers, Election Experts Are Worried About US Democracy</h3>
+                </figure>
+                <figure class="mb-4 col-12 col-md-6">
+                  <img class="w-100" src="https://d.newsweek.com/en/full/1669817/david-goodhart.jpg?w=397&h=265&f=73c11823e1e0db055aad7ad37ef9de5f" alt="U.S">
+                  <h3 class="my-2">Appointing New U.K. Equalities Commissioner 'Undermines Racial Equality'</h3>
+                </figure>
+              </div>
+              <div class="side-content col-12 col-md-5 col-lg-4">
+                <figure class="row">
+                  <img class="w-100 h-auto col-4" src="https://d.newsweek.com/en/full/1669834/ethiopian-amhara-militia-fighters.jpg?w=397&h=265&f=3648535b5699ce6836030741bee6b992" alt="U.S">
+                  <h3 class="my-2 col-8">Massacre in Ethiopia Sees Dozens 'Hacked To Death'</h3>
+                </figure>
+                <figure class="row">
+                  <img class="w-100 col-4" src="https://d.newsweek.com/en/full/1669799/diwali-celebrations.jpg?w=95&h=95&f=96a353a4e5df045ed695f2845a83ab83" alt="U.S">
+                  <h3 class="my-2 col-8">Happy Diwali 2020 Wishes for Friends and Family</h3>
+                </figure>
+                <figure class="row">
+                  <img class="w-100 col-4" src="https://d.newsweek.com/en/full/1669793/relatives-greet-covid-patient-italy-hospital.jpg?w=95&h=95&f=08f0533b87cac439c1047a7afed02b26" alt="U.S">
+                  <h3 class="my-2 col-8">Corpse Filmed in Hospital Bathroom as Italy's COVID Wards At Breaking Point</h3>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="business border-top pt-4 mt-4">
+            <h2 class="font-weight-bolder">Business</h2>
+            <div class="row">
+              <div class="main-content col-12 col-md-7 col-lg-8 row">
+                <figure class="mb-4 col-12 col-md-6">
+                  <img class="w-100" src="https://d.newsweek.com/en/full/1669295/donald-trump-supporters-economy-share.jpg?w=397&h=265&f=41b2e3b5e2890d3c866b79d1178b5918" alt="U.S">
+                  <h3 class="my-2">Trump Counties Make Up Just 29 Percent of U.S. GDP, 2020 Election Shows</h3>
+                </figure>
+                <figure class="mb-4 col-12 col-md-6">
+                  <img class="w-100" src="https://d.newsweek.com/en/full/1668970/singles-day-china.jpg?w=397&h=265&f=e56fca980451a899798bf684601848fc" alt="U.S">
+                  <h3 class="my-2">Alibaba's China Singles Day Sales Dwarf Amazon Record'</h3>
+                </figure>
+              </div>
+              <div class="side-content col-12 col-md-5 col-lg-4">
+                <figure class="row">
+                  <img class="w-100 h-auto col-4" src="https://d.newsweek.com/en/full/1668850/pfizer-vaccine.jpg?w=397&h=265&f=af168e2ee486bcd9875c502129692320" alt="U.S">
+                  <h3 class="my-2 col-8">As Stimulus Hopes Dwindle, Investors Cling to Pfizer Vaccine Instead</h3>
+                </figure>
+                <figure class="row">
+                  <img class="w-100 col-4" src="https://d.newsweek.com/en/full/1668834/joe-biden-speech.jpg?w=95&h=95&f=6ae2e50cc4c9e1ebcf620da419ffcbd2" alt="U.S">
+                  <h3 class="my-2 col-8">Markets Shrug Off Trump-Biden Transition Chaos, Turn Attention to Senate</h3>
+                </figure>
+                <figure class="row">
+                  <img class="w-100 col-4" src="https://d.newsweek.com/en/full/1641233/costco-wholesaler.jpg?w=95&h=95&f=c14c07b988e343df129ec4c2bc6aa8b3" alt="U.S">
+                  <h3 class="my-2 col-8">Retailers Start Black Friday Sales Early To Jump Start Holiday Shopping</h3>
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="tech-science border-top pt-4 mt-4">
+            <h2 class="font-weight-bolder">Tech & Science</h2>
+            <div class="row">
+              <div class="main-content col-12 col-md-7 col-lg-8 row">
+                <figure class="mb-4 col-12 col-md-6">
+                  <img class="w-100" src="https://d.newsweek.com/en/full/1669878/asteroids.jpg?w=397&h=265&f=dcacc74189c2b208a607b19a1fda3f67" alt="U.S">
+                  <h3 class="my-2">Four Asteroids to Fly By Earth This Weekend Before Leonid Meteor Shower Pea</h3>
+                </figure>
+                <figure class="mb-4 col-12 col-md-6">
+                  <img class="w-100" src="https://d.newsweek.com/en/full/1669931/betty-white.jpg?w=397&h=265&f=43cd7704f5f9e6f3689efdc9eb1d7967" alt="U.S">
+                  <h3 class="my-2">The Best Holiday Gift Ideas Under $25</h3>
+                </figure>
+              </div>
+              <div class="side-content col-12 col-md-5 col-lg-4">
+                <figure class="row">
+                  <img class="w-100 h-auto col-4" src="https://d.newsweek.com/en/full/1666946/august-wi-fi-smart-lock-review-4th-gen.jpg?w=397&h=265&f=1256a813621b6907fb6f81843d5a1f59" alt="U.S">
+                  <h3 class="my-2 col-8">August Wi-Fi Smart Lock Review</h3>
+                </figure>
+                <figure class="row">
+                  <img class="w-100 col-4" src="https://d.newsweek.com/en/full/1669772/killer-whale.jpg?w=95&h=95&f=cc753cf1c20edbd4965b72c818a08fb7" alt="U.S">
+                  <h3 class="my-2 col-8">Markets Shrug Off Trump-Biden Transition Chaos, Turn Attention to Senate</h3>
+                </figure>
+                <figure class="row">
+                  <img class="w-100 col-4" src="https://d.newsweek.com/en/full/1641233/costco-wholesaler.jpg?w=95&h=95&f=c14c07b988e343df129ec4c2bc6aa8b3" alt="U.S">
+                  <h3 class="my-2 col-8">Aura Carver Frame Review</h3>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="row m-0">
+        <section class="subscribe bg-white p-3 mt-3 mt-md-0 col-12 col-lg-8">
+          <h2>SUBSCRIBE</h2>
+          <div class="w-100 bg-light p-4 d-md-flex justify-content-between align-items-center">
+            <figure class="d-flex justify-content-center position-relative mb-5">
+              <img src="https://d.newsweek.com/en/full/1658908/cover-november-06-11-2020.jpg?w=170&q=95&f=d5654a57e5e73c6bf7d75872dcbf38f9" alt="subscribe">
+              <img class="position-absolute top-image" src="https://d.newsweek.com/en/full/1668137/cover-november-20-2020.jpg?w=170&q=95&f=4908b956c71162b16d2cf0426b9afcbf" alt="subscribe">
+            </figure>
+            <div class="w-md-60 text-center text-md-left">
+              <h4>In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h4>
+              <p>All Access + Weekly Delivery.<br> Choose A Membership That's Perfect for You!</p>
+              <button type="button" class="btn btn-danger d-flex align-items-center mx-auto mx-md-0">
+                <span>SUBSCRIBE</span>
+                <i class="fas fa-chevron-right mx-2"></i>
+              </button>
+            </div>
+          </div>
+        </section>
+  
+        <section class="newsletter bg-white p-3 mt-3 mt-md-0 col-12 col-lg-4">
+          <h2>NEWSLETTER</h2>
+          <div class="image-holder row border no-gutters">
+            <img class="news-image col-12 col-md-6" src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5" alt="newsletter">
+            <div class="col-12 col-md-6 px-2 d-md-flex flex-column justify-content-center">
+              <h3 class=" text-dark font-weight-bolder text-center my-4">THE STARTING 5</h3>
+              <p class=" text-center">See why nearly a quarter of a million subscribers begin their day with the Starting 5.</p>
+              <form class="d-flex flex-lg-column mx-3 mb-4">
+                <input class="border flex-grow-1 mb-2 p-2" type="email" placeholder="Email address">
+                <button type="button" class="btn btn-danger flex-grow-1 d-flex align-items-center justify-content-center mb-2">
+                  <span>FREE SIGN UP</span>
+                  <i class="fas fa-chevron-right mx-2"></i>
+                </button>
+             </form>
+            </div>
+          </div>
+        </section>
+      </div>
+
+  </main>
+
+  <footer class="container-xl mt-4 bg-white p-3">
+    <div class="border-bottom py-1 d-md-flex justify-content-between align-items-end">
+      <div class="d-md-flex align-items-baseline">
+        <img class="logo-red my-2 mr-3" src="assets/logo-red.png" alt="Logo">
+        <p class="copy">© 2020 NEWSWEEK DIGITAL LLC</p>
+      </div>
+      <div class="social">
+        <a href="https://facebook.com"><img src="assets/facebook.png" alt=""></a>
+        <a href="https://twitter.com"><img src="assets/twitter.png" alt=""></a>
+        <a href="https://pinterest.com"><img src="assets/pinterest.png" alt=""></a>
+        <a href="https://tumblr.com"><img src="assets/tumblr.png" alt=""></a>
+        <a href="https://linkedin.com"><img src="assets/linkedin.png" alt=""></a>
+      </div>
+    </div>
+    
+    <div class="d-flex mt-2"> 
+      <h3 class="mx-2">Editions:</h3>
+      <ul class="m-0 p-0">
+        <li class="d-inline-block px-2"><a href="#">U.S. Edition</a></li>
+        <li class="d-inline-block px-2"><a href="#">日本</a></li>
+        <li class="d-inline-block px-2"><a href="#">Pakistan</a></li>
+        <li class="d-inline-block px-2"><a href="#">Polska</a></li>
+        <li class="d-inline-block px-2"><a href="#">România</a></li>
+      </ul>
+    </div>
+
+    <ul class="m-0 p-0">
+      <li class="d-inline-block px-2"><a href="#">About Us</a></li>
+      <li class="d-inline-block px-2"><a href="#">Corrections</a></li>
+      <li class="d-inline-block px-2"><a href="#">Contact Us</a></li>
+      <li class="d-inline-block px-2"><a href="#">Editorial Guidelines</a></li>
+      <li class="d-inline-block px-2"><a href="#">Advertise</a></li>
+      <li class="d-inline-block px-2"><a href="#">Copyright</a></li>
+      <li class="d-inline-block px-2"><a href="#">Terms & Conditions</a></li>
+      <li class="d-inline-block px-2"><a href="#">Privacy Policy</a></li>
+      <li class="d-inline-block px-2"><a href="#">Cookie Policy</a></li>
+      <li class="d-inline-block px-2"><a href="#">Terms of Sale</a></li>
+      <li class="d-inline-block px-2"><a href="#">Archive</a></li>
+      <li class="d-inline-block px-2"><a href="#">Announcements</a></li>
+    </ul>
+    
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -7,15 +7,9 @@ body {
   padding: 1rem 0;
 }
 
-/* @media only screen and (min-width: 768px) {
-  .container-xl {
-    padding-top: 1rem;
-  }
-} */
-
 @media only screen and (min-width: 992px) {
   .container-xl {
-    padding-top: 5rem;
+    padding-top: 4.5rem;
   }
 }
 
@@ -289,7 +283,6 @@ main .newsletter .news-image {
 }
 
 @media only screen and (min-width: 768px) {
-  /* main .newsletter .image-holder, */
   main .newsletter .news-image {
     height: 100%;
   }
@@ -340,7 +333,6 @@ main .editors-content h2 {
 }
 
 /*** Footer ***/
-
 footer .logo-red {
   width: 15rem;
 }

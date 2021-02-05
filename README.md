@@ -33,6 +33,12 @@ In this project, I clone the Newsweek homepage using semantic HTML5 elements, Bo
 - [w3schools](https://www.w3schools.com)
 - [Newsweek](https://www.newsweek.com/)
 
+## Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/StarSheriff2/bubble-sort/issues).
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
